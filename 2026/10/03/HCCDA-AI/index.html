@@ -1,0 +1,1456 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><title>ICT大赛 | 小楼夜听雨</title><meta name="author" content="小楼夜听雨"><meta name="copyright" content="小楼夜听雨"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#f7f9fe"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-touch-fullscreen" content="yes"><meta name="apple-mobile-web-app-title" content="ICT大赛"><meta name="application-name" content="ICT大赛"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="#f7f9fe"><meta property="og:type" content="article"><meta property="og:title" content="ICT大赛"><meta property="og:url" content="http://yzf522.cn/2026/10/03/HCCDA-AI/index.html"><meta property="og:site_name" content="小楼夜听雨"><meta property="og:description" content="云计算基础概念云计算是什么按需从网络获取计算、存储、网络等资源，用完释放，按使用量付费。 大特征按需自助 —— 自己下单，不用人工申请 广泛网络接入 —— 任何设备、任何地点都能用 资源池化—— 物理资源池化共享，多用户隔离使用 快速弹性—— 秒级扩容缩容（云的核心价值） 可计量服务 —— 用量可监"><meta property="og:locale" content="zh-CN"><meta property="og:image" content="https://bu.dusays.com/2024/12/29/677157cb97dfe.webp"><meta property="article:author" content="小楼夜听雨"><meta property="article:tag"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://bu.dusays.com/2024/12/29/677157cb97dfe.webp"><meta name="description" content="云计算基础概念云计算是什么按需从网络获取计算、存储、网络等资源，用完释放，按使用量付费。 大特征按需自助 —— 自己下单，不用人工申请 广泛网络接入 —— 任何设备、任何地点都能用 资源池化—— 物理资源池化共享，多用户隔离使用 快速弹性—— 秒级扩容缩容（云的核心价值） 可计量服务 —— 用量可监"><link rel="shortcut icon" href="/favicon.ico"><link rel="canonical" href="http://yzf522.cn/2026/10/03/HCCDA-AI/"><link rel="preconnect" href="//cdn.cbd.int"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="google-site-verification" content="xxx"/><meta name="baidu-site-verification" content="code-xxx"/><meta name="msvalidate.01" content="xxx"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.cbd.int/@fancyapps/ui@5.0.28/dist/fancybox/fancybox.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  linkPageTop: undefined,
+  peoplecanvas: undefined,
+  postHeadAiDescription: {"enable":true,"gptName":"AnZhiYu","mode":"local","switchBtn":false,"btnLink":"https://afdian.net/item/886a79d4db6711eda42a52540025c377","randomNum":3,"basicWordCount":1000,"key":"xxxx","Referer":"https://xx.xx/"},
+  diytitle: {"enable":true,"leaveTitle":"w(ﾟДﾟ)w 不要走！再看看嘛！","backTitle":"♪(^∇^*)欢迎肥来！"},
+  LA51: undefined,
+  greetingBox: {"enable":true,"default":"晚上好👋","list":[{"greeting":"晚安😴","startTime":0,"endTime":5},{"greeting":"早上好鸭👋, 祝你一天好心情！","startTime":6,"endTime":9},{"greeting":"上午好👋, 状态很好，鼓励一下～","startTime":10,"endTime":10},{"greeting":"11点多啦, 在坚持一下就吃饭啦～","startTime":11,"endTime":11},{"greeting":"午安👋, 宝贝","startTime":12,"endTime":14},{"greeting":"🌈充实的一天辛苦啦！","startTime":14,"endTime":18},{"greeting":"19点喽, 奖励一顿丰盛的大餐吧🍔。","startTime":19,"endTime":19},{"greeting":"晚上好👋, 在属于自己的时间好好放松😌~","startTime":20,"endTime":24}]},
+  twikooEnvId: '',
+  commentBarrageConfig:undefined,
+  root: '/',
+  preloader: {"source":3},
+  friends_vue_info: undefined,
+  navMusic: true,
+  mainTone: undefined,
+  authorStatus: {"skills":["🤖️ 缓缓飘落的枫叶想思念"]},
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"简","rightMenuMsgToTraditionalChinese":"转为繁体","rightMenuMsgToSimplifiedChinese":"转为简体"},
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":330},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: true,
+    simplehomepage: false,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"copy":true,"copyrightEbable":false,"limitCount":50,"languages":{"author":"作者: 小楼夜听雨","link":"链接: ","source":"来源: 小楼夜听雨","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。","copySuccess":"复制成功，复制和转载请标注本文地址"}},
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#425AEF","bgDark":"#1f1f1f","position":"top-center"},
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.cbd.int/flickr-justified-gallery@2.1.2/dist/fjGallery.min.js',
+      css: 'https://cdn.cbd.int/flickr-justified-gallery@2.1.2/dist/fjGallery.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isAnchor: false,
+  shortcutKey: undefined,
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  configTitle: '小楼夜听雨',
+  title: 'ICT大赛',
+  postAI: '',
+  pageFillDescription: '云计算基础概念, 云计算是什么, 大特征, 三种服务模型, 部署模型, 虚拟化, 华为云架构层级, 计费模式, 计算服务三件套, 1.ELB, 2.ECS, 3.AS, 三件套怎么配合, 存储服务三件套, EVS 云硬盘, SFS 文件存储, OBS 对象存储, 总结, 网络服务, VPC 虚拟私有云, 安全组 amp 网络 ACL, 专线 DC, 总结, 容器与云原生, Docker, Kubernetes（K8s）, CCE 华为云容器引擎, 云原生, 总结, 数据库服务, RDS 关系型数据库服务, GaussDB 高斯数据库, RDS vs 自己在 ECS 上装数据库, NoSQL, DDM 分布式数据库中间件, IMS 镜像服务, BMS 裸金属服务器, CBR 云备份服务, AI 与机器学习基础, 三种学习方式, 关键概念, 深度学习核心, 提示工程, 三个采样参数：, Tokenizer, 提示技巧三件套, 盘古应用开发套件, 预训练、微调与数据工程, 微调的三种打开方式, 数据工程四连, ModelArts 与华为云 AI, ModelArts, 华为 AI 自研三件套, 华为云预置 AI 服务, 大数据服务, MRS, DLI（数据湖探索）, DWS（数据仓库服务）, 三选一速查, 上云迁移与运维治理, 上云迁移, Landing Zone 着陆区, Runbook 运行手册, 运维治理, 安全服务, WAF Web 应用防火墙, DDoS 高防, 堡垒机 CBH, 其他安全服务, 模型史与架构, Transformer, 易混点大汇总云计算基础概念云计算是什么按需从网络获取计算存储网络等资源用完释放按使用量付费大特征按需自助自己下单不用人工申请广泛网络接入任何设备任何地点都能用资源池化物理资源池化共享多用户隔离使用快速弹性秒级扩容缩容云的核心价值可计量服务用量可监控可计费三种服务模型基础设施平台数据库容器软件云会议企业邮箱部署模型公有云服务商提供多租户共享成本低日常首选私有云专属自己安全性高政企敏感数据混合云公有私有结合弹性又安全最灵活社区云特定行业共享如金融行业云虚拟化虚拟机容器内核各自独立内核共享宿主机内核启动慢分钟级快秒级体积大级小级隔离强弱进程级华为云架构层级区域物理上独立的大区如华南广州间完全隔离作用异地容灾可用区内独立的机房电力网络独立跨部署高可用作用本地高可用同不同时延低极小不同隔离边缘节点靠近用户低时延边缘计算计费模式按需计费秒级开通用完即停贵适合弹性临时场景包年包月预付费便宜适合长期稳定负载如官网服务器竞价计费超便宜但可能被回收适合无状态可中断任务计算服务三件套名称作用考点把请求分发到多台支持四层与七层加权轮询最少连接做会话保持云上的虚拟机核心属镜像创建实例安全组虚拟防火墙按需包年包月竞价计费按负载自动加减削峰填谷伸缩组策略定时周期动态健康检查失败自动替换支持四层与七层四层按端口原样转发简单速度快适合流量转发游戏视频流七层按域名等内容分发稍慢一点点适合网站按路径分流给图片给加权轮询轮流分配置高的机器权重大多分一点最少连接谁手上活少连接数少分给谁同一个算出来固定打同一台机器会话保持用或让同一用户的请求始终去同一台服务器健康检查定期探活每隔几秒问后端你还活着吗没回应自动从分发名单里剔除不转给它恢复后自动加回镜像公共私有共享市场镜像镜像快照镜像是模板快照是某个时刻的备份规格族通用型计算型内存型存储型安全组虚拟防火墙默认放行内部控制外部访问是实例级有状态后面网络部分细讲计费按需随时开随时关贵包年包月长期租便宜竞价超便宜但可能被收回远程登录走端口伸缩组把一批圈在一起管理比如台伸缩配置新加的机器用什么镜像什么规格提前定好模板伸缩策略什么时候加什么时候减分三种定时定好每天点加台点减台用于规律性流量晚高峰周期按星期几循环执行用于周末工作日差异动态告警监控使用率就加就减用于流量突增突降最常用健康检查定期检查每台是否活着挂了就自动移除并新建一台顶上总结属于镜像可以批量创建安全组默认放行内部控制外部访问削峰填谷控制成本配合用健康检查失败的实例自动替换支持四层七层调度算法加权轮询最少连接用于会话保持健康检查自动摘除故障后端三件套怎么配合用户请求分发多台处理按负载自动加减存储服务三件套存储类型怎么理解类比块存储按块小格子读写最快但一块盘只能给一台机器用电脑里的硬盘文件存储按文件夹路径读写多台机器能同时用公司共享文件夹对象存储按钥匙读写容量几乎无限管海量文件网盘云硬盘是什么就是给当硬盘用的关键考点必须挂载到才能用不能独立存在它依赖默认只能挂一台普通云硬盘同一时刻只能被一台使用所以叫块存储低延迟高性能数据库这类对速度敏感的场景首选快照某个时间点的拍照备份数据坏了能一键还原到拍照那一刻可以扩容可以备份数据盘随时扩容量配合备份服务做容灾磁盘类型普通高超高共享云硬盘最多同时挂载台可扩容的状态可用正在使用删除条件未被其他服务占用才能删文件存储是什么共享储存大家都能往里面放文件读文件关键考点多台共享跟一块盘一台机相反天生就是给大家一起用的按目录层级访问像这种路径方式读写访问协议用用典型场景大数据分析多台计算节点共享数据媒体处理容器共享存储访问时不占用本地磁盘数据都在云上监控用云监控监控文件系统性能指标对象存储是什么基于对象的海量存储网盘容量几乎无限存图片视频日志备份都往这里放两个核心概念必考桶存储空间的容器像网盘里的根目录用前必须先建桶桶策略三种私有公共读公共写对象一个文件就是一个对象每个对象有个唯一的钥匙对象组成部分对象名元数据数据怎么访问用类似账号密码认证通过控制台上传下载存储类别标准低频访问归档三种权限控制方式权限桶策略与对象策略被授权用户拥有者注册用户组日志投递用户组生命周期管理标准低频标准归档过期删除访问方式图形客户端命令行文件系统挂载优点海量按量计费不用预估容量用多少付多少成本可控高持久性华为云宣传数据持久性分级存储热数据选择标准快冷数据选择低频归档便宜典型场景网站图片视频静态文件电影剪辑还能做静态网站托管数据库备份日志归档大数据分析前的原始数据存放可以也可以看是否要共享给多台机器总结云硬盘块存储挂用低延迟快照时间点备份文件存储共享文件夹多机同时挂载按路径访问对象存储桶对象认证海量按量高持久备份和静态网站首选网络服务虚拟私有云是什么在华为云上给划一块完全私有的网络空间都在这里内部可通信外部默认隔离这就是的隔离性概念解释考点子网把网络再分子网一个网段数据库一个网段子网按网段划分便于分层管理地址段的写法如表示网段大小规划子网要先定路由表子网内网络流量走向的规则集合包含目的地址段和下一跳每个子网关联一张路由表弹性公网给一个公网让外面访问可以绑定解绑随时换网关内网机器偷偷上网但不暴露自己的内网访问外网隐藏内网机器重点默认隔离不同之间默认不能互通要互通需用对等连接云连接子网默认互通同一个里的子网之间默认可以通信内网外网公网访问要配内网互访走私有网段细节弹性公网按需计费的独享带宽可以转共享带宽包年包月的独享带宽不能转共享带宽是静态公网不是动态一个绑定一个不能多个共用安全组网络是什么安全组是每台的防火墙看规则决定放哪个端口进来比如网络是整个子网的防火墙先过这关再进对比对比项安全组网络负责对象实例级绑在上子网级管整个子网状态有状态无状态规则方向入方向出方向入方向出方向都要单独配放行逻辑全部规则取或任一放行就过按优先级从高到低匹配可拒绝应用顺序先过安全组再过或反之按架构两道都要过有状态无状态有状态安全组从里面发出去的请求回来的响应包自动放行不用再配入站规则像保安记住你刚出门了回来自动放行无状态网络出去的规则进来的规则都必须配置默认规则华为云安全组出方向默认放行入方向默认拒绝要手动加规则放行指定端口新建安全组时通常先配好常用端口专线是什么拉一条物理专线把本地机房和云上直接连起来不经过公共互联网专线对比项专线走公网通道专用物理线路公共互联网加密隧道时延带宽低时延高带宽受公网影响稳定性安全稳定安全一般成本贵按带宽端口收费便宜场景核心业务混合云临时预算有限典型场景混合云本地数据中心云上协同核心系统迁移上云两地容灾总结云上私有网络默认隔离定网段子网分层对外内网上网安全组实例级有状态网络子网级无状态安全组入方向默认拒绝专线专用物理连接低时延高带宽但贵公网加密隧道便宜但看公网好坏容器与云原生是什么把应用它需要的环境一起打包成一个镜像搬到任何机器上都能跑环境永远一致组成镜像只读的模板文件包含应用代码运行时依赖库与配置容器镜像的运行实例可启动停止删除多个容器共享宿主机内核仓库存储与分发镜像的地方如华为云容器技术本质操作系统级虚拟化通过命名空间隔离进程网络文件系统通过限制资源以文本方式定义如何构建镜像自动化构建是什么当容器成千上万的时候人管理起来麻烦可配置全自动管理它就是容器编排平台组成的最小调度单元一个内可运行一个或多个容器共享网络和存储工作节点运行的机器控制面集群的大脑含入口调度集群状态存储声明期望的副本数负责滚动更新与回滚为提供稳定的虚拟和负载均衡入口会变不变自愈能力健康检查失败自动重启或重建弹性伸缩根据负载自动增减副本华为云容器引擎自己搭集群要装配维护升级很累就是华为云帮你把集群装好管好的服务你只管部署应用基于的容器托管服务提供集群创建节点管理弹性伸缩日志监控与华为云等原生集成支持混合云多云场景一键部署容器化应用云原生云原生是以容器微服务持续交付和声明式基础设施为核心的应用理念应用从设计之初就为云而生容器化是云原生的基础之一总结镜像只读模板容器运行实例容器共享宿主机内核所以比虚拟机轻量是最小调度单元负责容器的编排调度自愈与伸缩管副本管访问入口华为云托管的服务是技术是开箱即用的云产品数据库服务关系型数据库服务就是把装好管好给你用托管式关系型数据库服务支持引擎托管能力考点主备高可用一主一备主库故障自动切换到备库业务无感知自动备份按策略定时备份可一键恢复到任意备份点只读实例主库只管写再挂几台只读副本专门应付读分担主实例读压力实现读写分离同步延迟复制是异步的只读实例数据可能比主实例滞后几秒对实时性要求极高的数据如刚下的订单立刻要读到不适合走只读监控告警参数调优存储扩容部署形态单机便宜主备高可用推荐生产高斯数据库华为自研的国产数据库华为自研的关系型数据库产品系列常见形态兼容协议语法性能与扩展性更强基于开源内核强一致金融级等对应场景特点高可用强一致性分布式扩展金融级安全场景考点国产化信创替代金融核心系统政企大数据库自己在上装数据库对比项托管自建如自己装部署一键开通开箱即用自己装自己配高可用自动主备切换自己搭主从自己切换备份自动备份自己写脚本运维云厂商负责自己灵活性较低受平台限制高完全可控成本含服务费便宜但人力成本高非关系型数据库文档数据库服务兼容等特点灵活海量存储适合文档缓存时序等场景考点题目给场景存结构不固定的文档文档数据库分布式数据库中间件大白话数据库拆表分片的管家把一张大表拆到多个数据库上对外还是一个数据库专业版解决数据库水平扩展和海量数据存储问题考点问水平扩展海量存储不是镜像服务要靠镜像装系统就是管镜像的服务自己做的模板私有镜像能共享给别人也能用快照云备份做新镜像镜像管理服务管公共镜像私有镜像共享镜像三类无私密镜像考点私有镜像可以共享给同租户的其他用户其他区域整机镜像的镜像源云服务器云服务器备份云备份镜像可以做磁盘快照快照创建私有镜像裸金属服务器是虚拟出来的机器是直接给你一台真物理机裸金属服务器独享物理机资源无虚拟化开销支持的网络类型必背虚拟私有云高速网络网络自定义适用高性能计算数据库对性能安全要求极高的场景云备份服务是华为云统一的备份保险柜把云服务器云硬盘打包备份出事了能恢复云备份服务备份对象云服务器云硬盘备份类型默认策略下首次全量备份后续增量备份只备份变化的部分不是差异备份存储库类型必背备份存储库复制存储库归档存储库无标准存储库恢复方式云服务器备份恢复云硬盘备份恢复混合云备份恢复无备份恢复跨区域复制条件备份由产生包含系统盘备份状态为可用不用由产生备份过程中自动创建快照并保留正确与机器学习基础包含关系深度学习机器学习人工智能机器学习定义从数据中自动学习模型参数对新数据做出预测或决策无需显式编程规则深度学习基于多层人工神经网络的表示学习方法自动从数据中提取多层特征三种学习方式监督学习大白话有标准答案标签的教学老师把这是猫标好机器照着学专业版训练数据带标签学习输入到输出的映射两大任务必考分类输出离散类别垃圾邮件判断猫狗识别回归输出连续数值房价预测气温预测常见算法逻辑回归决策树随机森林无监督学习大白话没有标准答案一堆数据丢给你自己找规律自己分组专业版训练数据无标签发现数据内在结构核心任务聚类用户分群降维考点是无监督聚类算法强化学习大白话做对给糖做错挨罚智能体通过试错学策略专业版智能体与环境交互依据奖励信号调整策略目标最大化累计奖励场景自动驾驶游戏考点属于强化学习正确关键概念概念大白话专业版特征判断用的线索猫的耳朵胡须输入数据中用于预测的属性维度标签标准答案这张图是猫监督学习中样本的真实输出训练集测试集复习题考试题不能偷看答案训练模型评估泛化能力的数据集过拟合背题背太死换道题就不会模型在训练集表现好测试集差泛化能力弱欠拟合学太少啥也没学会模型太简单训练集都学不好过拟合最高频的坑记住表现训练集准确率高测试集新数据准确率低原因模型太复杂数据太少训练太久对策更多数据正则化简化模型早停深度学习核心神经网络一堆神经元分层连接每层提取不同层次特征卷积神经网络图像王者用卷积核提取局部特征边缘纹理形状物体循环神经网络处理序列文本语音时间序列记上下文大模型这类的基础架构训练三要素数据算力算法提示工程三个采样参数参数作用考点温度控制输出随机性越高越随机有创意越低越确定保守控制随机性不是训练速度准确性只从概率最高的个里选越大候选越多越大选择数量越多越小越随机越小越确定存在惩罚对已出现的施加负向惩罚减少重复值域影响生成概率分布分词器把输入文字切分成词元模型读的单词卡片逆分词把拼回完整文本推理流程必背顺序采样输出格式化提示技巧三件套技巧大白话专业定义零样本直接下指令不给例子不提供示例直接生成少样本先给几个例子再提问通过少量示例帮助模型理解任务样本提示思维链让模型一步步想依赖模型自身逐步分解问题并分析而非直接给答案检索增强生成先查资料再回答结合检索信息与模型生成回答标准流程先检索知识库后生成输出三大必背结论流程先检索后生成不修改大模型底层权重与参数缓解大模型幻觉的核心手段知识库约束结构化知识库定期更新盘古应用开发套件开发模式轻量化编排全流程编排代码开发基础语言模型的局限没有明确的目标导向需要提示词派活才能干活预训练微调与数据工程预训练在海量无标注通用语料上训练形成基础语言能力与通用知识训练大模型的三大依赖参数规模高性能计算设备长时间计算微调的三种打开方式方式说明全量微调解冻模型所有层级参数全部更新监督微调依托人工标注的样本以拟合标准答案为目标可搭配全量或轻量化微调只调少量参数不含全量微调数据工程四连数据四大来源必背开源数据集生成数据企业私有数据合规网络数据数据格式纯文本结构化对话专用格式二进制数据清洗四步必背冗余去重违规过滤敏感脱敏格式归一主流通用数据集与华为云华为云一站式开发平台全流程智能精炼一站式完成数据清洗与合成覆盖环节数据管理训练管理模型管理部署推理支持主流框架算力支持昇腾加速训练数据一般先放到再导入云端交互式代码开发调试环境不是分布式训练环境训练前三大要素训练代码训练框架镜像训练数据自动学习零代码训练高频考点大白话不会写代码也能训模型把标注好的数据传上去平台自动选模型自动调参自动出结果专业版基于自动化机器学习技术自动完成特征工程模型选择超参调优考点小白快速建模型用自动学习正确训练管理训练作业正式跑训练的任务可指定算法数据集资源规格支持分布式训练多卡多节点并行加快大模型训练模型部署与推理推理模型训练好之后对新数据做预测的过程在线服务实时响应调用适合线上业务批量服务一批数据统一跑出结果适合离线批量处理部署位置云端边缘边缘计算华为云的超市模型算法数据集案例拿来即用华为自研三件套名称是什么考点对应昇腾华为自研芯片昇腾推理芯片昇腾训练芯片昇思华为自研框架对标深度学习框架华为云一站式平台全流程开发平台华为云预置服务服务方向例子视觉文字识别图像识别人脸识别语音语音识别语音合成语言自然语言处理对话机器人决策内容审核推荐系统大数据服务数据特征记首字母海量数据量大高速产生处理快实时流多样结构化非结构化文本图片日志价值低价值密度但挖掘出大价值两种处理模式批处理离线积攒一批数据统一算报表流处理实时数据边到边算实时告警实时风控华为云托管式大数据集群服务基于开源生态内置组件分布式文件系统等能力快速创建集群弹性伸缩与打通存算分离数据放计算用集群适合有大数据开发能力需要做自定义数据处理数据湖探索不想建集群不想管服务器是无服务器的你把数据放好直接写就能查用多少算多少的钱核心特点无需预置管理集群支持分析兼容支持批处理流处理既可跑离线也可做实时流分析计费按扫描的数据量计费用了才付钱适合中小团队不想运维集群快速分析考点关键词按量计费不用自己建集群数据仓库服务普通数据库管日常交易下单转账管大规模分析这个季度卖了多少哪个地区增长最快它是专门为报表分析设计的定位在线分析处理面向复杂查询报表商业智能内核基于即特点行列混合存储列存加速分析高并发可扩展对比事务处理增删改查分析处理复杂查询聚合考点高频属于属于问报表大数据分析基于内核三选一速查场景选谁一句话理由用写大数据处理代码托管生态集群不建集群写按量分析数据湖企业报表大规模分析查询数据仓库日常业务事务订单用户表关系型数据库大数据原始数据存储底座存算分离底座上云迁移与运维治理上云迁移弹性扩缩容降低成本免运维更强算力工具全称搬什么大白话主机迁移服务本地服务器虚拟机把整台电脑复制到云上对象存储迁移服务对象存储数据把网盘数据拷到云网盘数据复制服务数据库迁移同步把数据库搬走可不停机迁移流程了解评估规划迁移验证切换运维着陆区着陆区企业上云前的基础环境规划与最佳实践统一设计账号体系多账号多组织架构企业组织网络规划子网互联互通方案安全基线权限密钥管理合规要求日志与审计统一日志留存操作审计目的让业务迁移安全合规可扩展避免上了云再返工考点是上云后的业务代码框架错它是上云前的基础环境规划运行手册专业版答题用运行手册将例行操作故障处理变更流程固化为标准步骤文档作用减少人为失误提升效率新人可快速上手故障时快速响应示例数据库备份检查宕机处理考点用于标准化运维操作和故障处理正确运维治理服务管什么大白话云监控内存磁盘网络指标告警体检仪报警器云日志服务日志采集检索分析全程录像回放身份与访问管理用户权限角色最小权限原则门禁卡按需授权代码托管构建部署流水线自动化流水线工厂补充两个安全运维词认识即可密钥管理服务密钥加密托管云运维中心工单变更故障一站式管理考点问监控告警日志分析权限管控流水线安全服务应用防火墙部署在应用前面反代模式检测并拦截恶意请求防护能力考点列举注入在输入框塞语句窃取数据库跨站脚本往页面注入脚本盗取用户信息恶意爬虫攻击网页篡改暴力破解部署位置可与组合云独享对应层级应用层第层考点问防注入用什么是应用层防护高防分布式拒绝服务利用大量傀儡机并发攻击耗尽目标资源导致正常用户无法访问华为云默认基础防护免费自动流量清洗高防高防付费扩容可抗超大流量几十级通过流量清洗黑洞机制防护能力流量型攻击等考点流量型攻击把服务打瘫应用型攻击注入两者别混基础防护免费高防付费堡垒机堡垒机运维安全审计服务核心能力统一入口所有运维操作从堡垒机进入身份认证支持双因子认证权限控制按最小权限授权高危命令阻断操作审计全程录屏日志留存可追溯价值满足等保合规防止越权与误操作事后审计追溯考点问运维登录唯一入口审计录像堡垒机高危命令阻断也是堡垒机能力其他安全服务服务防什么层级主机安全勒索病毒漏洞入侵主机层密钥管理数据加密数据层数据库安全审计数据库行为审计数据层云防火墙南北东西向统一防护网络层身份权限最小权限身份层模型史与架构模型年份团队核心贡献必背考点首个成功应用于数字识别的卷积神经网络鼻祖团队加速训练分类准确率显著提高数据增强验证深度网络潜力深度学习引爆点生成词向量在百万级词典上亿数据上高效训练低计算成本下显著提升精度能度量词间相似性不是训练成本极高残差连接解决深度网络退化问题网络越深反而不如浅层注意退化梯度消失也缓解梯度问题但题目问主要解决选退化双向刷新多项记录双向首次验证预训练微调范式第套第题答案应用代码生成文案创作不含自动驾驶控制视频生成推理模型胜过推理开源数学代码强由团队提出首次引入自注意力机制替代传统核心创新四件套多头注意力机制位置编码前馈网络层残差连接自注意力优势支持并行计算捕捉长程依赖对后续影响奠定基础系列相继采用推动发展易混点大汇总对比组分辨口诀容器云上虚拟机容器共享内核更轻量硬盘共享文件夹网盘镜像快照镜像模板快照时间点备份四层七层四层转包裹七层拆包裹调度算法轮询轮流最少连接谁闲给谁固定找同一个人安全组网络有状态回包自动放行无状态各配各专线专用公路稳贵公网加密便宜事务分析集群数仓服务器对象数据数据库拦聪明攻击注入扛粗暴攻击流量昇腾芯片框架平台操作手册上云前环境规划',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2026-10-23 11:39:37',
+  postMainColor: '',
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#18171d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#f7f9fe')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          const now = new Date()
+          const hour = now.getHours()
+          const isNight = hour <= 6 || hour >= 18
+          if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+          else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 7.2.0"></head><body data-type="anzhiyu"><div id="web_bg"></div><div id="an_music_bg"></div><div id="loading-box" onclick="document.getElementById(&quot;loading-box&quot;).classList.add(&quot;loaded&quot;)"><div class="loading-bg"><img class="loading-img nolazyload" alt="加载头像" src="https://bu.dusays.com/2024/12/19/6763fb8953276.jpg"/><div class="loading-image-dot"></div></div></div><script>const preloader = {
+  endLoading: () => {
+    document.getElementById('loading-box').classList.add("loaded");
+  },
+  initLoading: () => {
+    document.getElementById('loading-box').classList.remove("loaded")
+  }
+}
+window.addEventListener('load',()=> { preloader.endLoading() })
+setTimeout(function(){preloader.endLoading();},10000)
+
+if (true) {
+  document.addEventListener('pjax:send', () => { preloader.initLoading() })
+  document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+}</script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.10/progress_bar/progress_bar.css"/><script async="async" src="https://cdn.cbd.int/pace-js@1.2.4/pace.min.js" data-pace-options="{ &quot;restartOnRequestAfter&quot;:false,&quot;eventLag&quot;:false}"></script><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><div id="nav-group"><span id="blog_name"><a id="site-name" href="/" accesskey="h"><div class="title">小楼夜听雨</div><i class="anzhiyufont anzhiyu-icon-house-chimney"></i></a></span><div class="mask-name-container"><div id="name-container"><a id="page-name" href="javascript:anzhiyu.scrollToDest(0, 500)">PAGE_NAME</a></div></div><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 文章</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/archives/"><i class="anzhiyufont anzhiyu-icon-box-archive faa-tada" style="font-size: 0.9em;"></i><span> 隧道</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/"><i class="anzhiyufont anzhiyu-icon-shapes faa-tada" style="font-size: 0.9em;"></i><span> 分类</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags faa-tada" style="font-size: 0.9em;"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 友链</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/comments/"><i class="anzhiyufont anzhiyu-icon-envelope faa-tada" style="font-size: 0.9em;"></i><span> 留言板</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 我的</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/music/?id=13091820019&amp;server=netease"><i class="anzhiyufont anzhiyu-icon-music faa-tada" style="font-size: 0.9em;"></i><span> 音乐馆</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/album/"><i class="anzhiyufont anzhiyu-icon-images faa-tada" style="font-size: 0.9em;"></i><span> 相册集</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 关于</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/about/"><i class="anzhiyufont anzhiyu-icon-paper-plane faa-tada" style="font-size: 0.9em;"></i><span> 关于本人</span></a></li><li><a class="site-page child faa-parent animated-hover" href="javascript:toRandomPost()"><i class="anzhiyufont anzhiyu-icon-shoe-prints1 faa-tada" style="font-size: 0.9em;"></i><span> 随便逛逛</span></a></li></ul></div></div></div><div id="nav-right"><div class="nav-button" id="randomPost_button"><a class="site-page" onclick="toRandomPost()" title="随机前往一个文章" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-dice"></i></a></div><input id="center-console" type="checkbox"/><label class="widget" for="center-console" title="中控台" onclick="anzhiyu.switchConsole();"><i class="left"></i><i class="widget center"></i><i class="widget right"></i></label><div id="console"><div class="console-card-group-reward"><ul class="reward-all console-card"><li class="reward-item"><a href="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png" target="_blank"><img class="post-qr-code-img" alt="微信" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-weichat.png"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png" target="_blank"><img class="post-qr-code-img" alt="支付宝" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/qrcode-alipay.png"/></a><div class="post-qr-code-desc">支付宝</div></li></ul></div><div class="console-card-group"><div class="console-card-group-left"><div class="console-card" id="card-newest-comments"><div class="card-content"><div class="author-content-item-tips">互动</div><span class="author-content-item-title"> 最新评论</span></div><div class="aside-list"><span>正在加载中...</span></div></div></div><div class="console-card-group-right"><div class="console-card tags"><div class="card-content"><div class="author-content-item-tips">音乐</div><span class="author-content-item-title">灵魂的碰撞💥</span></div></div><div class="console-card history"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-box-archiv"></i><span>文章</span></div><div class="card-archives"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-archive"></i><span>归档</span><a class="card-more-btn" href="/archives/" title="查看更多">
+    <i class="anzhiyufont anzhiyu-icon-angle-right"></i></a></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2026/10/"><span class="card-archive-list-date">十月 2026</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">3</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2026/09/"><span class="card-archive-list-date">九月 2026</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">3</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2026/04/"><span class="card-archive-list-date">四月 2026</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2026/03/"><span class="card-archive-list-date">三月 2026</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">2</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2025/12/"><span class="card-archive-list-date">十二月 2025</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2025/10/"><span class="card-archive-list-date">十月 2025</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2025/09/"><span class="card-archive-list-date">九月 2025</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2025/08/"><span class="card-archive-list-date">八月 2025</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span>篇</span></div></a></li></ul></div><hr/></div></div></div><div class="button-group"><div class="console-btn-item"><a class="darkmode_switchbutton" title="显示模式切换" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-moon"></i></a></div><div class="console-btn-item" id="consoleHideAside" onclick="anzhiyu.hideAsideBtn()" title="边栏显示控制"><a class="asideSwitch"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></a></div><div class="console-btn-item" id="consoleMusic" onclick="anzhiyu.musicToggle()" title="音乐开关"><a class="music-switch"><i class="anzhiyufont anzhiyu-icon-music"></i></a></div></div><div class="console-mask" onclick="anzhiyu.hideConsole()" href="javascript:void(0);"></div></div><div class="nav-button" id="nav-totop"><a class="totopbtn" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i><span id="percent" onclick="anzhiyu.scrollToDest(0,500)">0</span></a></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);" title="切换"><i class="anzhiyufont anzhiyu-icon-bars"></i></a></div></div></div></nav><div id="post-info"><div id="post-firstinfo"><div class="meta-firstline"><a class="post-meta-original">原创</a><span class="article-meta tags"></span></div></div><h1 class="post-title" itemprop="name headline">ICT大赛</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="anzhiyufont anzhiyu-icon-calendar-days post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" itemprop="dateCreated datePublished" datetime="2026-10-03T06:50:48.000Z" title="发表于 2026-10-03 14:50:48">2026-10-03</time><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-history post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" itemprop="dateCreated datePublished" datetime="2026-10-23T03:39:37.650Z" title="更新于 2026-10-23 11:39:37">2026-10-23</time></span></div><div class="meta-secondline"><span class="post-meta-separator"></span><span class="post-meta-wordcount"><i class="anzhiyufont anzhiyu-icon-file-word post-meta-icon" title="文章字数"></i><span class="post-meta-label" title="文章字数">字数总计:</span><span class="word-count" title="文章字数">9k</span></span><span class="post-meta-separator">       </span><span class="post-meta-position" title="作者IP属地为茂名"><i class="anzhiyufont anzhiyu-icon-location-dot"></i>茂名</span></div></div></div><section class="main-hero-waves-area waves-area"><svg class="waves-svg" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M -160 44 c 30 0 58 -18 88 -18 s 58 18 88 18 s 58 -18 88 -18 s 58 18 88 18 v 44 h -352 Z"></path></defs><g class="parallax"><use href="#gentle-wave" x="48" y="0"></use><use href="#gentle-wave" x="48" y="3"></use><use href="#gentle-wave" x="48" y="5"></use><use href="#gentle-wave" x="48" y="7"></use></g></svg></section><div id="post-top-cover"><img class="nolazyload" id="post-top-bg" src="https://bu.dusays.com/2024/12/29/677157cb97dfe.webp"></div></header><main id="blog-container"><div class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container" itemscope itemtype="http://yzf522.cn/2026/10/03/HCCDA-AI/"><header><h1 id="CrawlerTitle" itemprop="name headline">ICT大赛</h1><span itemprop="author" itemscope itemtype="http://schema.org/Person">小楼夜听雨</span><time itemprop="dateCreated datePublished" datetime="2026-10-03T06:50:48.000Z" title="发表于 2026-10-03 14:50:48">2026-10-03</time><time itemprop="dateCreated datePublished" datetime="2026-10-23T03:39:37.650Z" title="更新于 2026-10-23 11:39:37">2026-10-23</time></header><h2 id="云计算基础概念"><a href="#云计算基础概念" class="headerlink" title="云计算基础概念"></a>云计算基础概念</h2><h3 id="云计算是什么"><a href="#云计算是什么" class="headerlink" title="云计算是什么"></a>云计算是什么</h3><p>按需从网络获取计算、存储、网络等资源，用完释放，按使用量付费。</p>
+<h3 id="大特征"><a href="#大特征" class="headerlink" title="大特征"></a>大特征</h3><p><strong>按需</strong>自助 —— 自己下单，不用人工申请</p>
+<p><strong>广泛</strong>网络接入 —— 任何设备、任何地点都能用</p>
+<p><strong>资源池化</strong>—— 物理资源池化共享，多用户隔离使用</p>
+<p><strong>快速弹性</strong>—— 秒级扩容缩容（云的核心价值）</p>
+<p><strong>可计量</strong>服务 —— 用量可监控、可计费</p>
+<h3 id="三种服务模型"><a href="#三种服务模型" class="headerlink" title="三种服务模型"></a>三种服务模型</h3><table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>IaaS</strong></td>
+<td>基础设施</td>
+<td>ECS、OBS</td>
+</tr>
+<tr>
+<td><strong>PaaS</strong></td>
+<td>平台</td>
+<td>数据库 RDS、容器 CCE</td>
+</tr>
+<tr>
+<td><strong>SaaS</strong></td>
+<td>软件</td>
+<td>云会议、企业邮箱</td>
+</tr>
+</tbody></table>
+<h3 id="部署模型"><a href="#部署模型" class="headerlink" title="部署模型"></a>部署模型</h3><ul>
+<li>公有云：服务商提供，多租户共享，成本低（日常首选） </li>
+<li>私有云：专属自己，安全性高（政企敏感数据） </li>
+<li>混合云：公有 + 私有结合，弹性又安全（最灵活） </li>
+<li>社区云：特定行业共享（如金融行业云）</li>
+</ul>
+<h3 id="虚拟化"><a href="#虚拟化" class="headerlink" title="虚拟化"></a>虚拟化</h3><table>
+<thead>
+<tr>
+<th></th>
+<th>虚拟机 VM</th>
+<th>容器（Docker）</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>内核</td>
+<td><strong>各自独立</strong> OS 内核</td>
+<td><strong>共享宿主机</strong>内核</td>
+</tr>
+<tr>
+<td>启动</td>
+<td>慢（分钟级）</td>
+<td>快（秒级）</td>
+</tr>
+<tr>
+<td>体积</td>
+<td>大（GB 级）</td>
+<td>小（MB 级）</td>
+</tr>
+<tr>
+<td>隔离</td>
+<td>强</td>
+<td>弱（进程级）</td>
+</tr>
+</tbody></table>
+<h3 id="华为云架构层级"><a href="#华为云架构层级" class="headerlink" title="华为云架构层级"></a>华为云架构层级</h3><ol>
+<li><p><strong>Region（区域）</strong>：物理上独立的大区（如华南 - 广州），<strong>Region 间完全隔离</strong></p>
+<p>作用：异地容灾</p>
+</li>
+<li><p><strong>AZ（可用区）</strong>：Region 内独立的机房（电力 &#x2F; 网络独立），<strong>跨 AZ 部署 &#x3D; 高可用</strong>，</p>
+<p>作用：本地高可用，同 Region 不同 AZ 时延低极小，不同 Region 隔离</p>
+</li>
+<li><p><strong>边缘节点</strong>：靠近用户，低时延（CDN &#x2F; 边缘计算）</p>
+</li>
+</ol>
+<h3 id="计费模式"><a href="#计费模式" class="headerlink" title="计费模式"></a>计费模式</h3><ul>
+<li><strong>按需计费</strong>：秒级开通，用完即停，贵 —— 适合<strong>弹性临时</strong>场景</li>
+<li><strong>包年包月</strong>：预付费，便宜 —— 适合<strong>长期稳定</strong>负载（如官网服务器）</li>
+<li><strong>竞价计费</strong>：超便宜但可能被回收 —— 适合无状态、可中断任务</li>
+</ul>
+<h2 id="计算服务三件套"><a href="#计算服务三件套" class="headerlink" title="计算服务三件套"></a>计算服务三件套</h2><table>
+<thead>
+<tr>
+<th>名称</th>
+<th>作用</th>
+<th>考点</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>ELB</td>
+<td>把请求分发到多台 ECS</td>
+<td>支持四层 (TCP&#x2F;UDP) 与七层 (HTTP&#x2F;HTTPS)；<br />加权轮询 <br />最少连接 <br />IP Hash<br />IP Hash 做会话保持</td>
+</tr>
+<tr>
+<td>ECS</td>
+<td>云上的虚拟机（IaaS 核心）</td>
+<td>属 IaaS；<br />镜像创建实例；<br />安全组 &#x3D; 虚拟防火墙；<br />按需 &#x2F; 包年包月 &#x2F; 竞价计费</td>
+</tr>
+<tr>
+<td>AS</td>
+<td>按负载自动加 &#x2F; 减 ECS</td>
+<td>削峰填谷；<br />伸缩组 + 策略（定时 &#x2F; 周期 &#x2F; 动态）；<br />健康检查失败自动替换</td>
+</tr>
+</tbody></table>
+<h3 id="1-ELB"><a href="#1-ELB" class="headerlink" title="1.ELB"></a>1.ELB</h3><ul>
+<li><p>支持四层与七层：</p>
+<p><strong>四层</strong>：按 <strong>IP + 端口</strong>原样转发，简单，速度快，适合流量转发，游戏、视频流</p>
+<p><strong>七层</strong>：按 URL &#x2F; 域名 &#x2F; Cookie 等<strong>内容</strong>分发，稍慢一点点，适合：Web 网站、按路径分流（&#x2F;api 给A，&#x2F;图片 给B）</p>
+</li>
+<li><p>加权轮询：轮流分，配置高的机器 “权重” 大、多分一点</p>
+</li>
+<li><p>最少连接：谁手上活少（连接数少）分给谁</p>
+</li>
+<li><p>IP Hash：同一个 IP 算出来固定打同一台机器</p>
+</li>
+<li><p>会话保持：用 <strong>IP Hash</strong>（或 Cookie）让同一用户的请求始终去同一台服务器</p>
+</li>
+<li><p><strong>健康检查</strong>：ELB 定期 “探活”，每隔几秒问后端：”你还活着吗？”</p>
+<p>没回应 → 自动从分发名单里剔除，不转给它；恢复后自动加回</p>
+</li>
+</ul>
+<h3 id="2-ECS"><a href="#2-ECS" class="headerlink" title="2.ECS"></a>2.ECS</h3><ul>
+<li><p>镜像：公共 &#x2F; 私有 &#x2F; 共享 &#x2F; 市场镜像</p>
+<p><strong>镜像 vs 快照</strong>：镜像是模板，快照是某个时刻的备份</p>
+</li>
+<li><p>规格族：通用型 &#x2F; 计算型 &#x2F; 内存型 &#x2F; 存储型</p>
+</li>
+<li><p>安全组：虚拟防火墙，默认放行内部、控制外部访问，是<strong>实例级</strong>、<strong>有状态</strong>（后面网络部分细讲）</p>
+</li>
+<li><p>计费：</p>
+<p>按需 &#x3D; 随时开随时关（贵）</p>
+<p>包年包月 &#x3D; 长期租（便宜）</p>
+<p>竞价 &#x3D; 超便宜但可能被收回</p>
+</li>
+<li><p>远程登录 ECS 走 <strong>SSH（端口 22）</strong></p>
+</li>
+</ul>
+<h3 id="3-AS"><a href="#3-AS" class="headerlink" title="3.AS"></a>3.AS</h3><ul>
+<li><p><strong>伸缩组</strong>：把一批 ECS 圈在一起管理（比如 “3~10 台”）</p>
+</li>
+<li><p><strong>伸缩配置</strong>：新加的机器用什么镜像、什么规格（提前定好模板）</p>
+</li>
+<li><p><strong>伸缩策略</strong>：什么时候加、什么时候减，分三种 </p>
+<p>定时：定好 “每天 20 点加 2 台，23 点减 2 台”，用于规律性流量（晚高峰）</p>
+<p>周期：按星期几循环执行，用于周末 &#x2F; 工作日差异</p>
+<p>动态（告警）：监控 CPU 使用率 &gt; 80% 就加，&lt; 30% 就减，用于流量突增突降（最常用）</p>
+</li>
+<li><p><strong>健康检查</strong>：AS 定期检查每台 ECS 是否 “活着”，挂了就自动移除并新建一台顶上。</p>
+</li>
+</ul>
+<p><strong>总结</strong>：</p>
+<ol>
+<li>ECS 属于 IaaS；镜像可以批量创建 ECS；安全组默认放行内部、控制外部访问。</li>
+<li>AS &#x3D; 削峰填谷、控制成本；配合 ELB 用；健康检查失败的实例自动替换。</li>
+<li>ELB 支持四层 + 七层；调度算法 &#x3D; 加权轮询 &#x2F; 最少连接 &#x2F; IP Hash；<strong>IP Hash 用于会话保持</strong>；健康检查自动摘除故障后端。</li>
+</ol>
+<h3 id="三件套怎么配合"><a href="#三件套怎么配合" class="headerlink" title="三件套怎么配合"></a>三件套怎么配合</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">用户请求 → ELB（分发）→ 多台 ECS（处理）</span><br><span class="line">                        ↑</span><br><span class="line">                AS（按负载自动加/减 ECS）</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+<h2 id="存储服务三件套"><a href="#存储服务三件套" class="headerlink" title="存储服务三件套"></a>存储服务三件套</h2><table>
+<thead>
+<tr>
+<th>存储类型</th>
+<th>怎么理解</th>
+<th>类比</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>块存储</strong></td>
+<td>按 “块”（小格子）读写，最快，但一块盘只能给一台机器用</td>
+<td>电脑里的硬盘</td>
+</tr>
+<tr>
+<td><strong>文件存储</strong></td>
+<td>按 “文件夹路径” 读写，多台机器能同时用</td>
+<td>公司共享文件夹</td>
+</tr>
+<tr>
+<td><strong>对象存储</strong></td>
+<td>按 “钥匙（URL）” 读写，容量几乎无限，管海量文件</td>
+<td>网盘</td>
+</tr>
+</tbody></table>
+<h3 id="EVS-云硬盘"><a href="#EVS-云硬盘" class="headerlink" title="EVS 云硬盘"></a>EVS 云硬盘</h3><p><strong>是什么：</strong></p>
+<p> EVS 就是给 ECS 当硬盘用的</p>
+<p><strong>关键考点</strong></p>
+<ol>
+<li><strong>必须挂载到 ECS 才能用</strong>：EVS 不能独立存在，它依赖 ECS</li>
+<li><strong>默认只能挂一台 ECS</strong>：普通云硬盘同一时刻只能被一台 ECS 使用（所以叫 “块存储”）</li>
+<li><strong>低延迟、高性能</strong>：数据库这类对速度敏感的场景首选 EVS</li>
+<li><strong>快照</strong>：某个时间点的 “拍照备份”，数据坏了能一键还原到拍照那一刻</li>
+<li><strong>可以扩容、可以备份</strong>：数据盘随时扩容量；配合备份服务做容灾</li>
+<li><strong>磁盘类型</strong>：普通 IO、高 IO、超高 IO</li>
+<li>共享云硬盘最多同时挂载 <strong>16</strong> 台 ECS</li>
+<li><strong>可扩容的状态</strong>：可用、正在使用</li>
+<li><strong>删除条件</strong>：未被其他服务占用才能删</li>
+</ol>
+<h3 id="SFS-文件存储"><a href="#SFS-文件存储" class="headerlink" title="SFS 文件存储"></a>SFS 文件存储</h3><p><strong>是什么：</strong> </p>
+<p>共享储存，大家都能往里面放文件、读文件。</p>
+<p><strong>关键考点</strong></p>
+<ol>
+<li><strong>多台 ECS 共享</strong>：跟 EVS”一块盘一台机” 相反，SFS 天生就是给大家一起用的</li>
+<li><strong>按目录层级访问</strong>：像 <code>/data/user1</code>、<code>/data/user2</code> 这种路径方式读写</li>
+<li><strong>访问协议</strong>：NFS（Linux 用）、<strong>NFSv3、NFSv4、CIFS</strong>（Windows 用）</li>
+<li><strong>典型场景</strong>：大数据分析（多台计算节点共享数据）、媒体处理、容器共享存储</li>
+<li>访问时<strong>不占用 ECS 本地磁盘</strong>，数据都在云上</li>
+<li>监控：用 <strong>CES 云监控</strong> 监控文件系统性能指标</li>
+</ol>
+<h3 id="OBS-对象存储"><a href="#OBS-对象存储" class="headerlink" title="OBS 对象存储"></a>OBS 对象存储</h3><p><strong>是什么：</strong></p>
+<p>基于<strong>对象</strong>的海量存储</p>
+<p> 网盘，容量几乎无限，存图片、视频、日志、备份**都往这里放。</p>
+<p><strong>两个核心概念（必考）</strong></p>
+<ul>
+<li><p><strong>桶（Bucket）</strong>：存储空间的 “容器”，像网盘里的 “根目录”。用 OBS 前<strong>必须先建桶</strong></p>
+<p><strong>桶策略三种</strong>：<strong>私有、公共读、公共写</strong></p>
+</li>
+<li><p><strong>对象（Object）</strong>：一个文件就是一个对象，每个对象有个唯一的 “钥匙”（URL）</p>
+<p><strong>对象组成部分：</strong>Key（对象名）、Metadata（元数据）、Data（数据）**</p>
+</li>
+</ul>
+<p><strong>怎么访问</strong>：用 <strong>AK&#x2F;SK</strong>（Access Key &#x2F; Secret Key，类似 “账号密码”）认证，通过 API &#x2F; SDK &#x2F; 控制台上传下载。</p>
+<p><strong>存储类别</strong>：<strong>标准、低频访问、归档</strong>三种</p>
+<p><strong>权限控制方式</strong>：IAM 权限、桶策略与对象策略、ACL</p>
+<p><strong>ACL 被授权用户</strong>：拥有者、注册用户组、日志投递用户组</p>
+<p><strong>生命周期管理</strong>：标准→低频、标准→归档、过期删除</p>
+<p><strong>访问方式：</strong>OBS Browser+（图形客户端）、API &amp; SDK、obsutil（命令行）、obsfs（文件系统挂载）**</p>
+<p><strong>优点：</strong></p>
+<ol>
+<li><strong>海量 + 按量计费</strong>：不用预估容量，用多少付多少，成本可控</li>
+<li><strong>高持久性</strong>：华为云宣传数据持久性 99.999999999%</li>
+<li><strong>分级存储</strong>：热数据选择 “标准”（快）、冷数据选择 “低频 &#x2F; 归档”（便宜）</li>
+</ol>
+<p><strong>典型场景</strong></p>
+<ul>
+<li>网站图片、视频、静态文件 ，HPC、电影剪辑（还能做<strong>静态网站托管</strong>）</li>
+<li>数据库备份、日志归档 </li>
+<li>大数据分析前的原始数据存放 → 可以 OBS 也可以 SFS（看是否要共享给多台机器）</li>
+</ul>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><ul>
+<li>EVS &#x3D; 云硬盘 &#x3D; 块存储，挂 ECS 用，低延迟，快照 &#x3D; 时间点备份。</li>
+<li>SFS &#x3D; 文件存储 &#x3D; 共享文件夹，多机同时挂载，按路径访问。</li>
+<li>OBS &#x3D; 对象存储，桶 + 对象，AK&#x2F;SK 认证，海量 &#x2F; 按量 &#x2F; 高持久，备份和静态网站首选</li>
+</ul>
+<h2 id="网络服务"><a href="#网络服务" class="headerlink" title="网络服务"></a>网络服务</h2><h3 id="VPC-虚拟私有云"><a href="#VPC-虚拟私有云" class="headerlink" title="VPC 虚拟私有云"></a>VPC 虚拟私有云</h3><p><strong>是什么：</strong> </p>
+<p>在华为云上给划一块<strong>完全私有</strong>的网络空间，ECS 都在这里。内部可通信，<strong>外部默认隔离</strong>—— 这就是 VPC 的隔离性。</p>
+<table>
+<thead>
+<tr>
+<th>概念</th>
+<th>解释</th>
+<th>考点</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>子网（Subnet）</strong></td>
+<td>把网络再分子网（Web 一个网段、数据库一个网段</td>
+<td>子网按网段划分，便于分层管理</td>
+</tr>
+<tr>
+<td><strong>CIDR</strong></td>
+<td>IP 地址段的写法，如 <code>192.168.0.0/16</code></td>
+<td><code>/16</code> 表示网段大小；规划 VPC &#x2F; 子网要先定 CIDR</td>
+</tr>
+<tr>
+<td><strong>路由表</strong></td>
+<td><strong>子网内网络流量走向</strong>的规则集合，包含目的地址段和下一跳</td>
+<td>每个子网关联一张路由表</td>
+</tr>
+<tr>
+<td><strong>EIP 弹性公网 IP</strong></td>
+<td>给 ECS 一个公网 IP，让外面访问</td>
+<td>可以绑定 &#x2F; 解绑，随时换</td>
+</tr>
+<tr>
+<td><strong>NAT 网关</strong></td>
+<td>内网机器偷偷上网，但不暴露自己的 IP</td>
+<td>内网访问外网、隐藏内网机器</td>
+</tr>
+</tbody></table>
+<p><strong>重点</strong></p>
+<ol>
+<li><strong>默认隔离</strong>：不同 VPC 之间默认<strong>不能互通</strong>（要互通需用对等连接 &#x2F; 云连接）</li>
+<li><strong>子网默认互通</strong>：同一个 VPC 里的子网之间默认可以通信</li>
+<li><strong>内网 &#x2F; 外网</strong>：公网访问要配 EIP；内网互访走私有网段</li>
+</ol>
+<p>细节：</p>
+<p><strong>EIP 弹性公网 IP</strong></p>
+<ul>
+<li><strong>按需计费</strong>的 EIP：独享带宽<strong>可以</strong>转共享带宽</li>
+<li><strong>包年包月</strong>的 EIP：独享带宽<strong>不能</strong>转共享带宽</li>
+<li>EIP 是<strong>静态</strong>公网 IP（不是动态 IP）</li>
+<li>一个 EIP 绑定一个 ECS（不能多个 ECS 共用）</li>
+</ul>
+<h3 id="安全组-网络-ACL"><a href="#安全组-网络-ACL" class="headerlink" title="安全组 &amp; 网络 ACL"></a>安全组 &amp; 网络 ACL</h3><p><strong>是什么：</strong> </p>
+<p>安全组是<strong>每台 ECS 的防火墙</strong>：看规则决定 “放哪个端口进来（比如 80&#x2F;443）”。 </p>
+<p>网络 ACL 是<strong>整个子网的防火墙</strong>：先过这关，再进ECS。</p>
+<p><strong>对比：</strong></p>
+<table>
+<thead>
+<tr>
+<th>对比项</th>
+<th>安全组（SG）</th>
+<th>网络 ACL</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>负责对象</td>
+<td><strong>实例级</strong>（绑在 ECS 上）</td>
+<td><strong>子网级</strong>（管整个子网）</td>
+</tr>
+<tr>
+<td>状态</td>
+<td><strong>有状态</strong></td>
+<td><strong>无状态</strong></td>
+</tr>
+<tr>
+<td>规则方向</td>
+<td>入方向 + 出方向</td>
+<td>入方向 + 出方向（都要单独配）</td>
+</tr>
+<tr>
+<td>放行逻辑</td>
+<td>全部规则取 “或”（任一放行就过）</td>
+<td>按优先级从高到低匹配，可拒绝</td>
+</tr>
+<tr>
+<td>应用顺序</td>
+<td>先过安全组，再过 ACL（或反之按架构）</td>
+<td>两道都要过</td>
+</tr>
+</tbody></table>
+<p><strong>有状态 vs 无状态”</strong></p>
+<ul>
+<li><strong>有状态（安全组）</strong>：从里面发出去的请求，<strong>回来的响应包自动放行</strong>，不用再配入站规则。像保安记住 “你刚出门了，回来自动放行”</li>
+<li><strong>无状态（网络 ACL）</strong>：<strong>出去的规则、进来的规则都必须配置</strong>。</li>
+</ul>
+<p><strong>默认规则（华为云）</strong></p>
+<ul>
+<li>安全组：<strong>出方向默认放行</strong>，入方向默认拒绝（要手动加规则放行指定端口）</li>
+<li>新建安全组时通常先配好常用端口（SSH 22、RDP 3389、HTTP 80&#x2F;443）</li>
+</ul>
+<h3 id="专线-DC"><a href="#专线-DC" class="headerlink" title="专线 DC"></a>专线 DC</h3><p><strong>是什么：</strong> </p>
+<p>拉一条<strong>物理专线</strong>，把本地机房和云上 VPC 直接连起来，不经过公共互联网。</p>
+<p><strong>专线 vs VPN:</strong></p>
+<table>
+<thead>
+<tr>
+<th>对比项</th>
+<th>专线 DC</th>
+<th>VPN（走公网）</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>通道</td>
+<td><strong>专用物理线路</strong></td>
+<td>公共互联网 + 加密隧道</td>
+</tr>
+<tr>
+<td>时延 &#x2F; 带宽</td>
+<td>低时延、高带宽</td>
+<td>受公网影响</td>
+</tr>
+<tr>
+<td>稳定性 &#x2F; 安全</td>
+<td>稳定、安全</td>
+<td>一般</td>
+</tr>
+<tr>
+<td>成本</td>
+<td><strong>贵</strong>（按带宽 &#x2F; 端口收费）</td>
+<td>便宜</td>
+</tr>
+<tr>
+<td>场景</td>
+<td>核心业务、混合云</td>
+<td>临时 &#x2F; 预算有限</td>
+</tr>
+</tbody></table>
+<p><strong>典型场景</strong>：混合云（本地数据中心 + 云上 VPC 协同）、核心系统迁移上云、两地容灾。</p>
+<h3 id="总结-1"><a href="#总结-1" class="headerlink" title="总结"></a>总结</h3><p>VPC &#x3D; 云上私有网络（默认隔离），CIDR 定网段，子网分层，EIP 对外、NAT 内网上网。</p>
+<p>安全组 &#x3D; 实例级 + 有状态；网络 ACL &#x3D; 子网级 + 无状态；安全组入方向默认拒绝。</p>
+<p>专线 &#x3D; 专用物理连接，低时延高带宽但贵；VPN &#x3D; 公网加密隧道，便宜但看公网好坏。</p>
+<h2 id="容器与云原生"><a href="#容器与云原生" class="headerlink" title="容器与云原生"></a>容器与云原生</h2><h3 id="Docker"><a href="#Docker" class="headerlink" title="Docker"></a>Docker</h3><p><strong>是什么：</strong></p>
+<p>把<strong>应用 + 它需要的环境</strong>一起打包成一个 镜像，搬到任何机器上都能跑，环境永远一致</p>
+<p><strong>组成：</strong></p>
+<ul>
+<li><strong>镜像（Image）</strong>：只读的模板文件，包含应用代码、运行时、依赖库与配置</li>
+<li><strong>容器（Container）</strong>：镜像的运行实例，可启动 &#x2F; 停止 &#x2F; 删除；多个容器共享宿主机内核</li>
+<li><strong>仓库（Registry）</strong>：存储与分发镜像的地方（如 Docker Hub、华为云 SWR）</li>
+<li><strong>容器技术本质</strong>：操作系统级虚拟化，通过命名空间（Namespace）隔离进程 &#x2F; 网络 &#x2F; 文件系统，通过 Cgroups 限制资源</li>
+<li><strong>Dockerfile</strong>：以文本方式定义如何构建镜像（自动化构建）</li>
+</ul>
+<h3 id="Kubernetes（K8s）"><a href="#Kubernetes（K8s）" class="headerlink" title="Kubernetes（K8s）"></a>Kubernetes（K8s）</h3><p><strong>是什么：</strong></p>
+<p>当容器成千上万的时候，人管理起来麻烦，可配置K8s 全自动管理。它就是<strong>容器编排平台</strong></p>
+<p><strong>组成：</strong></p>
+<ul>
+<li><strong>Pod</strong>：Kubernetes 的<strong>最小调度单元</strong>，一个 Pod 内可运行一个或多个容器（共享网络和存储）</li>
+<li><strong>Node</strong>：工作节点，运行 Pod 的机器</li>
+<li><strong>控制面（Master）</strong>：集群的大脑，含 API Server（入口）、Scheduler（调度）、etcd（集群状态存储）</li>
+<li><strong>Deployment</strong>：声明期望的副本数，负责滚动更新与回滚</li>
+<li><strong>Service</strong>：为 Pod 提供稳定的虚拟 IP 和负载均衡入口（Pod IP 会变，Service 不变）</li>
+<li><strong>自愈能力</strong>：健康检查失败 → 自动重启或重建 Pod</li>
+<li><strong>弹性伸缩</strong>：根据负载自动增减 Pod 副本（HPA）</li>
+</ul>
+<h3 id="CCE-华为云容器引擎"><a href="#CCE-华为云容器引擎" class="headerlink" title="CCE 华为云容器引擎"></a>CCE 华为云容器引擎</h3><p>自己搭 K8s 集群：要装 master、配 etcd、维护升级，很累。CCE 就是华为云<strong>帮你把 K8s 集群装好、管好</strong>的服务，你只管部署应用</p>
+<ul>
+<li>CCE（Cloud Container Engine）：基于 Kubernetes 的<strong>容器托管服务</strong></li>
+<li>提供集群创建、节点管理、弹性伸缩、日志监控</li>
+<li>与华为云 VPC、EVS&#x2F;SFS、ELB、IAM 等原生集成</li>
+<li>支持<strong>混合云 &#x2F; 多云</strong>场景，一键部署容器化应用</li>
+</ul>
+<h3 id="云原生"><a href="#云原生" class="headerlink" title="云原生"></a>云原生</h3><p>云原生是以容器、微服务、DevOps、持续交付和声明式基础设施为核心的应用理念 —— 应用从设计之初就 “为云而生”。容器化是云原生的基础之一。</p>
+<h3 id="总结-2"><a href="#总结-2" class="headerlink" title="总结"></a>总结</h3><ul>
+<li>镜像 &#x3D; 只读模板，容器 &#x3D; 运行实例；容器共享宿主机内核，所以比虚拟机轻量。</li>
+<li>Pod 是最小调度单元；K8s 负责容器的编排、调度、自愈与伸缩；Deployment 管副本，Service 管访问入口。</li>
+<li>CCE &#x3D; 华为云托管的 Kubernetes 服务；K8s 是技术，CCE 是 “开箱即用” 的云产品。</li>
+</ul>
+<h2 id="数据库服务"><a href="#数据库服务" class="headerlink" title="数据库服务"></a>数据库服务</h2><h3 id="RDS-关系型数据库服务"><a href="#RDS-关系型数据库服务" class="headerlink" title="RDS 关系型数据库服务"></a>RDS 关系型数据库服务</h3><p>RDS 就是把 MySQL &#x2F; PostgreSQL &#x2F; SQL Server &#x2F; MariaDB <strong>装好、管好</strong>给你用，托管式关系型数据库服务。</p>
+<p>支持引擎：MySQL、PostgreSQL、SQL Server、MariaDB</p>
+<p><strong>托管能力（考点）</strong>：</p>
+<ul>
+<li><p><strong>主备高可用</strong>：一主一备，主库故障<strong>自动切换</strong>到备库，业务无感知</p>
+</li>
+<li><p><strong>自动备份</strong>：按策略定时备份，可一键恢复到任意备份点</p>
+</li>
+<li><p><strong>只读实例</strong>：主库只管写，再挂几台 “只读副本” 专门应付读，分担主实例读压力，实现<strong>读写分离</strong></p>
+<p>同步延迟：复制是异步的，只读实例数据可能比主实例滞后几秒 → 对实时性要求极高的数据（如刚下的订单立刻要读到）不适合走只读</p>
+</li>
+<li><p>监控告警、参数调优、存储扩容</p>
+</li>
+</ul>
+<p>部署形态：单机（便宜）&#x2F; 主备（高可用，推荐生产）</p>
+<h3 id="GaussDB-高斯数据库"><a href="#GaussDB-高斯数据库" class="headerlink" title="GaussDB 高斯数据库"></a>GaussDB 高斯数据库</h3><p>华为自研的 “国产数据库”</p>
+<p><strong>GaussDB</strong>：华为<strong>自研</strong>的关系型数据库产品系列</p>
+<p>常见形态：</p>
+<ul>
+<li>**GaussDB(for MySQL)**：兼容 MySQL 协议 &#x2F; 语法，性能与扩展性更强</li>
+<li>**GaussDB(for openGauss)**：基于 openGauss 开源内核，强一致、金融级</li>
+<li>GaussDB (for Redis)、GaussDB (for Mongo) 等：对应 NoSQL 场景</li>
+</ul>
+<p>特点：高可用、强一致性、分布式扩展、金融级安全</p>
+<p><strong>场景（考点）</strong>：国产化 &#x2F; 信创替代、金融核心系统、政企大数据库</p>
+<h3 id="RDS-vs-自己在-ECS-上装数据库"><a href="#RDS-vs-自己在-ECS-上装数据库" class="headerlink" title="RDS vs 自己在 ECS 上装数据库"></a>RDS vs 自己在 ECS 上装数据库</h3><table>
+<thead>
+<tr>
+<th>对比项</th>
+<th>RDS 托管</th>
+<th>ECS 自建（如自己装 MySQL）</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>部署</td>
+<td>一键开通，开箱即用</td>
+<td>自己装、自己配</td>
+</tr>
+<tr>
+<td>高可用</td>
+<td><strong>自动主备切换</strong></td>
+<td>自己搭主从、自己切换</td>
+</tr>
+<tr>
+<td>备份</td>
+<td>自动备份</td>
+<td>自己写脚本</td>
+</tr>
+<tr>
+<td>运维</td>
+<td>云厂商负责</td>
+<td>自己</td>
+</tr>
+<tr>
+<td>灵活性</td>
+<td>较低（受平台限制）</td>
+<td>高（完全可控）</td>
+</tr>
+<tr>
+<td>成本</td>
+<td>含服务费</td>
+<td>便宜（但人力成本高）</td>
+</tr>
+</tbody></table>
+<h3 id="NoSQL"><a href="#NoSQL" class="headerlink" title="NoSQL"></a>NoSQL</h3><p>非关系型数据库：<strong>DDS（文档数据库服务，兼容 MongoDB）</strong>、GaussDB (for Redis) 等</p>
+<p>特点：灵活 schema、海量存储，适合 JSON 文档、缓存、时序等场景</p>
+<p>考点：题目给场景 ——“存结构不固定的 JSON 文档” → 文档数据库（MongoDB&#x2F;DDS）</p>
+<h3 id="DDM-分布式数据库中间件"><a href="#DDM-分布式数据库中间件" class="headerlink" title="DDM 分布式数据库中间件"></a>DDM 分布式数据库中间件</h3><ul>
+<li><strong>大白话</strong>：数据库 “拆表分片” 的管家 —— 把一张大表拆到多个数据库上，对外还是一个 “数据库”</li>
+<li><strong>专业版</strong>：DDM（Distributed Database Middleware），解决<strong>数据库水平扩展和海量数据存储</strong>问题</li>
+<li>考点：问 “水平扩展 &#x2F; 海量存储” → <strong>DDM</strong>（不是 RDS）</li>
+</ul>
+<h2 id="IMS-镜像服务"><a href="#IMS-镜像服务" class="headerlink" title="IMS 镜像服务"></a>IMS 镜像服务</h2><p>ECS 要靠镜像装系统。IMS 就是管镜像的服务：自己做的模板（私有镜像）能共享给别人、也能用快照 &#x2F; 云备份做新镜像。</p>
+<ul>
+<li><strong>IMS（Image Management Service）</strong>：镜像管理服务，管<strong>公共镜像、私有镜像、共享镜像</strong>三类（无 “私密镜像”）</li>
+<li>考点：<ul>
+<li><strong>私有镜像可以共享</strong>（给同租户的其他用户 &#x2F; 其他区域）</li>
+<li><strong>整机镜像的镜像源</strong>：云服务器、云服务器备份、云备份、ISO 镜像</li>
+<li>可以做磁盘快照（快照→创建私有镜像）</li>
+</ul>
+</li>
+</ul>
+<h2 id="BMS-裸金属服务器"><a href="#BMS-裸金属服务器" class="headerlink" title="BMS 裸金属服务器"></a>BMS 裸金属服务器</h2><p>ECS 是 “虚拟出来” 的机器，BMS 是<strong>直接给你一台真物理机</strong></p>
+<ul>
+<li><strong>BMS（Bare Metal Server）</strong>：裸金属服务器，独享物理机资源，无虚拟化开销</li>
+<li><strong>支持的网络类型（必背）</strong>：<strong>虚拟私有云（VPC）、高速网络、IB 网络（InfiniBand）、自定义 VLAN</strong></li>
+</ul>
+<p>适用：高性能计算、数据库、对性能 &#x2F; 安全要求极高的场景</p>
+<h2 id="CBR-云备份服务"><a href="#CBR-云备份服务" class="headerlink" title="CBR 云备份服务"></a>CBR 云备份服务</h2><p>CBR 是华为云统一的 “备份保险柜”：把云服务器、云硬盘打包备份，出事了能恢复。</p>
+<ul>
+<li><strong>CBR（Cloud Backup and Recovery）</strong>：云备份服务，备份对象 &#x3D; 云服务器、云硬盘</li>
+<li><strong>备份类型</strong>：默认策略下<strong>首次全量备份，后续增量备份</strong>（只备份变化的部分）—— 不是 “差异备份”</li>
+<li><strong>存储库类型（必背）</strong>：<strong>备份存储库、复制存储库、归档存储库</strong>（无 “标准存储库”）</li>
+<li><strong>恢复方式</strong>：云服务器备份恢复、云硬盘备份恢复、<strong>混合云备份恢复</strong>（无 “OBS 备份恢复”）</li>
+<li><strong>跨区域复制条件</strong>：备份由 ECS&#x2F;EVS 产生、包含系统盘、备份状态为 “可用”（不用 “由 OBS 产生”）</li>
+<li>备份过程中自动创建快照并保留 —— 正确</li>
+</ul>
+<h2 id="AI-与机器学习基础"><a href="#AI-与机器学习基础" class="headerlink" title="AI 与机器学习基础"></a>AI 与机器学习基础</h2><p>包含关系：<strong>深度学习 ⊂ 机器学习 ⊂ 人工智能</strong></p>
+<p>机器学习定义：从数据中自动学习模型参数，对新数据做出预测或决策，无需显式编程规则</p>
+<p>深度学习：基于多层人工神经网络（Deep Neural Network）的表示学习方法，自动从数据中提取多层特征</p>
+<h3 id="三种学习方式"><a href="#三种学习方式" class="headerlink" title="三种学习方式"></a>三种学习方式</h3><p><strong>1）监督学习（Supervised Learning）</strong></p>
+<ul>
+<li><strong>大白话</strong>：有<strong>标准答案</strong>（标签）的教学 —— 老师把 “这是猫” 标好，机器照着学</li>
+<li><strong>专业版</strong>：训练数据带标签（Label），学习输入到输出的映射</li>
+<li>两大任务（必考）：<ul>
+<li><strong>分类（Classification）</strong>：输出离散类别 → 垃圾邮件判断、猫狗识别</li>
+<li><strong>回归（Regression）</strong>：输出连续数值 → 房价预测、气温预测</li>
+</ul>
+</li>
+<li>常见算法：逻辑回归、决策树、随机森林、SVM、KNN</li>
+</ul>
+<p><strong>2）无监督学习（Unsupervised Learning）</strong></p>
+<ul>
+<li><strong>大白话</strong>：<strong>没有标准答案</strong>—— 一堆数据丢给你，自己找规律、自己分组</li>
+<li><strong>专业版</strong>：训练数据无标签，发现数据内在结构</li>
+<li><strong>核心任务</strong>：<strong>聚类（Clustering）</strong>（K-Means 用户分群）、降维（PCA）</li>
+<li>考点：K-Means 是无监督聚类算法</li>
+</ul>
+<p><strong>3）强化学习（Reinforcement Learning）</strong></p>
+<ul>
+<li><strong>大白话</strong>：<strong>做对给糖、做错挨罚</strong>—— 智能体通过试错学策略</li>
+<li><strong>专业版</strong>：智能体（Agent）与环境交互，依据<strong>奖励信号（Reward）</strong>调整策略，目标最大化<strong>累计奖励</strong></li>
+<li>场景：AlphaGo、自动驾驶、游戏 AI</li>
+<li>考点：”AlphaGo 属于强化学习” → 正确</li>
+</ul>
+<h3 id="关键概念"><a href="#关键概念" class="headerlink" title="关键概念"></a>关键概念</h3><table>
+<thead>
+<tr>
+<th>概念</th>
+<th>大白话</th>
+<th>专业版</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>特征（Feature）</strong></td>
+<td>判断用的线索（猫的耳朵、胡须）</td>
+<td>输入数据中用于预测的属性维度</td>
+</tr>
+<tr>
+<td><strong>标签（Label）</strong></td>
+<td>标准答案（”这张图是猫”）</td>
+<td>监督学习中样本的真实输出</td>
+</tr>
+<tr>
+<td><strong>训练集 &#x2F; 测试集</strong></td>
+<td>复习题 &#x2F; 考试题（不能偷看答案）</td>
+<td>训练模型 vs 评估泛化能力的数据集</td>
+</tr>
+<tr>
+<td><strong>过拟合 Overfitting</strong></td>
+<td>背题背太死，换道题就不会</td>
+<td>模型在训练集表现好、测试集差，泛化能力弱</td>
+</tr>
+<tr>
+<td><strong>欠拟合 Underfitting</strong></td>
+<td>学太少，啥也没学会</td>
+<td>模型太简单，训练集都学不好</td>
+</tr>
+</tbody></table>
+<p><strong>过拟合（最高频的坑，记住）</strong></p>
+<ul>
+<li>表现：<strong>训练集准确率高，测试集 &#x2F; 新数据准确率低</strong></li>
+<li>原因：模型太复杂、数据太少、训练太久</li>
+<li>对策：更多数据、正则化、简化模型、早停</li>
+</ul>
+<h3 id="深度学习核心"><a href="#深度学习核心" class="headerlink" title="深度学习核心"></a>深度学习核心</h3><ul>
+<li><strong>神经网络</strong>：一堆 “神经元” 分层连接，每层提取不同层次特征</li>
+<li><strong>CNN（卷积神经网络）</strong>：<strong>图像</strong>王者 —— 用卷积核提取局部特征（边缘、纹理→形状→物体）</li>
+<li><strong>RNN &#x2F; LSTM（循环神经网络）</strong>：处理<strong>序列</strong>—— 文本、语音、时间序列（记上下文）</li>
+<li><strong>Transformer</strong>：大模型（ChatGPT 这类）的基础架构</li>
+<li>训练三要素：<strong>数据 + 算力 + 算法</strong></li>
+</ul>
+<h2 id="提示工程"><a href="#提示工程" class="headerlink" title="提示工程"></a>提示工程</h2><h3 id="三个采样参数："><a href="#三个采样参数：" class="headerlink" title="三个采样参数："></a>三个采样参数：</h3><table>
+<thead>
+<tr>
+<th>参数</th>
+<th>作用</th>
+<th>考点</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>温度 Temperature</strong></td>
+<td>控制<strong>输出随机性</strong>：越高越随机 &#x2F; 有创意，越低越确定 &#x2F; 保守</td>
+<td>控制 “随机性”，不是训练速度 &#x2F; 准确性</td>
+</tr>
+<tr>
+<td><strong>Top_k</strong></td>
+<td>只从概率<strong>最高的 k 个 token</strong> 里选：k 越大候选越多</td>
+<td>“k 越大，选择 token 数量越多” ✅；”k 越小越随机” ❌（越小越确定）</td>
+</tr>
+<tr>
+<td><strong>存在惩罚 Presence Penalty</strong></td>
+<td>对<strong>已出现的 token</strong> 施加负向惩罚，减少重复</td>
+<td>值域 <strong>-2.0 ~ 2.0</strong>；影响生成概率分布</td>
+</tr>
+</tbody></table>
+<h3 id="Tokenizer"><a href="#Tokenizer" class="headerlink" title="Tokenizer"></a>Tokenizer</h3><ul>
+<li><strong>Tokenizer（分词器）</strong>：把输入文字切分成 Token（词元）→ 模型读的 “单词卡片”</li>
+<li><strong>DeTokenizer（逆分词）</strong>：把 Token 拼回完整文本</li>
+<li><strong>LLM 推理流程（必背顺序）</strong>：<strong>Tokenization → Sampling（采样）→ DeTokenization → Output Formatting（输出格式化）</strong></li>
+</ul>
+<h3 id="提示技巧三件套"><a href="#提示技巧三件套" class="headerlink" title="提示技巧三件套"></a>提示技巧三件套</h3><table>
+<thead>
+<tr>
+<th>技巧</th>
+<th>大白话</th>
+<th>专业定义</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>零样本 Zero-shot</strong></td>
+<td>直接下指令，不给例子</td>
+<td>不提供示例直接生成</td>
+</tr>
+<tr>
+<td><strong>少样本 Few-shot</strong></td>
+<td>先给几个例子再提问</td>
+<td>通过<strong>少量示例</strong>帮助模型理解任务（&#x3D; 样本提示 Sample Prompting）</td>
+</tr>
+<tr>
+<td><strong>思维链 CoT</strong></td>
+<td>让模型 “一步步想”</td>
+<td><strong>依赖模型自身逐步分解问题</strong>并分析，而非直接给答案</td>
+</tr>
+<tr>
+<td><strong>RAG 检索增强生成</strong></td>
+<td>先查资料再回答</td>
+<td><strong>结合检索信息与模型生成回答</strong>；标准流程 &#x3D;<strong>先检索知识库，后生成输出</strong></td>
+</tr>
+</tbody></table>
+<p><strong>RAG 三大必背结论</strong></p>
+<ul>
+<li>流程：<strong>先检索 → 后生成</strong></li>
+<li><strong>不修改大模型底层权重与参数</strong></li>
+<li><strong>缓解大模型幻觉</strong>的核心手段：RAG 知识库约束、结构化 Prompt、知识库定期更新</li>
+</ul>
+<h3 id="盘古应用开发套件"><a href="#盘古应用开发套件" class="headerlink" title="盘古应用开发套件"></a>盘古应用开发套件</h3><ul>
+<li><strong>开发模式：</strong>轻量化编排、全流程编排、代码开发</li>
+<li>基础语言模型的局限：<strong>没有明确的目标导向</strong>（需要提示词 “派活” 才能干活）</li>
+</ul>
+<h2 id="预训练、微调与数据工程"><a href="#预训练、微调与数据工程" class="headerlink" title="预训练、微调与数据工程"></a>预训练、微调与数据工程</h2><ul>
+<li><strong>预训练 Pre-training</strong>：在<strong>海量无标注通用语料</strong>上训练，形成基础语言能力与通用知识</li>
+<li><strong>训练大模型的三大依赖</strong>：参数规模、高性能计算设备、长时间计算</li>
+</ul>
+<h3 id="微调的三种打开方式"><a href="#微调的三种打开方式" class="headerlink" title="微调的三种打开方式"></a>微调的三种打开方式</h3><table>
+<thead>
+<tr>
+<th>方式</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>全量微调 Full Fine-tuning</strong></td>
+<td><strong>解冻模型所有层级参数</strong>全部更新</td>
+</tr>
+<tr>
+<td><strong>SFT 监督微调</strong></td>
+<td>依托人工标注的 <strong>instruction-input-output</strong> 样本，以<strong>拟合标准答案</strong>为目标；可搭配全量或 PEFT</td>
+</tr>
+<tr>
+<td><strong>PEFT 轻量化微调</strong></td>
+<td>只调少量参数：<strong>LoRA、QLoRA、Adapter Tuning</strong>（不含全量微调）</td>
+</tr>
+</tbody></table>
+<h4 id="数据工程四连"><a href="#数据工程四连" class="headerlink" title="数据工程四连"></a>数据工程四连</h4><p><strong>数据四大来源（必背）</strong>：<strong>开源数据集、AI 生成数据、企业私有数据、合规网络数据</strong></p>
+<p><strong>数据格式</strong>：纯文本（.txt）、结构化（.jsonl）、对话专用格式、二进制（.bin）</p>
+<p><strong>数据清洗四步（必背）</strong>：<strong>冗余去重、违规过滤、敏感脱敏、格式归一</strong></p>
+<p><strong>主流通用数据集</strong>：Wikipedia、Common Crawl、BooksCorpus、Stack Exchange</p>
+<h2 id="ModelArts-与华为云-AI"><a href="#ModelArts-与华为云-AI" class="headerlink" title="ModelArts 与华为云 AI"></a>ModelArts 与华为云 AI</h2><h2 id="ModelArts"><a href="#ModelArts" class="headerlink" title="ModelArts"></a>ModelArts</h2><ul>
+<li><strong>ModelArts</strong>：华为云<strong>一站式 AI 开发平台</strong>（Data → Train → Deploy 全流程）</li>
+<li><strong>智能精炼</strong> &#x3D; 一站式完成<strong>数据清洗与合成</strong></li>
+<li>覆盖环节：<strong>数据管理 → 训练管理 → 模型管理 → 部署推理</strong></li>
+<li>支持主流框架：TensorFlow、PyTorch、MindSpore</li>
+<li>算力：支持 GPU、<strong>昇腾（Ascend）</strong>加速</li>
+<li>训练数据一般先放到 <strong>OBS</strong>，再导入 ModelArts</li>
+<li><strong>Notebook</strong> &#x3D; 云端<strong>交互式代码开发调试环境</strong>（不是分布式训练环境）</li>
+<li><strong>训练前三大要素</strong>：<strong>训练代码、训练框架（镜像）、训练数据</strong></li>
+</ul>
+<p><strong>1）自动学习（AutoML）—— 零代码训练（高频考点）</strong></p>
+<ul>
+<li><strong>大白话</strong>：不会写代码也能训模型 —— 把标注好的数据传上去，平台自动选模型、自动调参、自动出结果</li>
+<li><strong>专业版</strong>：基于 AutoML（自动化机器学习）技术，自动完成特征工程、模型选择、超参调优</li>
+<li><strong>考点</strong>：”小白快速建模型用 ModelArts 自动学习” → 正确</li>
+</ul>
+<p><strong>2）训练管理</strong></p>
+<ul>
+<li><strong>训练作业（Training Job）</strong>：正式跑训练的任务，可指定算法、数据集、资源规格</li>
+<li>支持<strong>分布式训练</strong>：多卡 &#x2F; 多节点并行，加快大模型训练</li>
+</ul>
+<p><strong>3）模型部署与推理</strong></p>
+<ul>
+<li><strong>推理（Inference）</strong>：模型训练好之后，对新数据做预测的过程</li>
+<li><strong>在线服务</strong>：实时响应（API 调用，适合线上业务）</li>
+<li><strong>批量服务</strong>：一批数据统一跑，出结果（适合离线批量处理）</li>
+<li>部署位置：云端、边缘（边缘计算）</li>
+</ul>
+<p><strong>4）AI Gallery</strong></p>
+<ul>
+<li>华为云的 AI”超市”：模型、算法、数据集、Notebook 案例，<strong>拿来即用</strong></li>
+</ul>
+<h3 id="华为-AI-自研三件套"><a href="#华为-AI-自研三件套" class="headerlink" title="华为 AI 自研三件套"></a>华为 AI 自研三件套</h3><table>
+<thead>
+<tr>
+<th>名称</th>
+<th>是什么</th>
+<th>考点对应</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>昇腾 Ascend</strong></td>
+<td>华为<strong>自研 AI 芯片</strong></td>
+<td>昇腾 310 &#x3D; 推理芯片，昇腾 910 &#x3D; 训练芯片</td>
+</tr>
+<tr>
+<td><strong>MindSpore（昇思）</strong></td>
+<td>华为<strong>自研 AI 框架</strong></td>
+<td>对标 PyTorch&#x2F;TensorFlow，深度学习框架</td>
+</tr>
+<tr>
+<td><strong>ModelArts</strong></td>
+<td>华为云<strong>一站式 AI 平台</strong></td>
+<td>全流程开发平台</td>
+</tr>
+</tbody></table>
+<h3 id="华为云预置-AI-服务"><a href="#华为云预置-AI-服务" class="headerlink" title="华为云预置 AI 服务"></a>华为云预置 AI 服务</h3><table>
+<thead>
+<tr>
+<th>服务方向</th>
+<th>例子</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>视觉</td>
+<td>OCR 文字识别、图像识别、人脸识别</td>
+</tr>
+<tr>
+<td>语音</td>
+<td>语音识别 ASR、语音合成 TTS</td>
+</tr>
+<tr>
+<td>语言</td>
+<td>NLP 自然语言处理、对话机器人</td>
+</tr>
+<tr>
+<td>决策</td>
+<td>内容审核、推荐系统</td>
+</tr>
+</tbody></table>
+<h2 id="大数据服务"><a href="#大数据服务" class="headerlink" title="大数据服务"></a>大数据服务</h2><p><strong>数据 4V 特征（记首字母）</strong></p>
+<ul>
+<li><strong>Volume</strong> 海量：数据量大</li>
+<li><strong>Velocity</strong> 高速：产生 &#x2F; 处理快（实时流）</li>
+<li><strong>Variety</strong> 多样：结构化 + 非结构化（文本、图片、日志）</li>
+<li><strong>Value</strong> 价值：低价值密度，但挖掘出大价值</li>
+</ul>
+<p><strong>两种处理模式</strong></p>
+<ul>
+<li><strong>批处理（离线）</strong>：积攒一批数据统一算（T+1 报表）</li>
+<li><strong>流处理（实时）</strong>：数据边到边算（实时告警、实时风控）</li>
+</ul>
+<h3 id="MRS"><a href="#MRS" class="headerlink" title="MRS"></a>MRS</h3><ul>
+<li>华为云<strong>托管式大数据集群服务</strong>，基于开源 <strong>Hadoop 生态</strong></li>
+<li>内置组件：<strong>HDFS</strong>（分布式文件系统）、<strong>MapReduce</strong>、<strong>Spark</strong>、<strong>Hive</strong>、<strong>Flink</strong>、<strong>HBase</strong>、<strong>Kafka</strong> 等</li>
+<li>能力：快速创建集群、弹性伸缩、与 <strong>OBS 打通（存算分离：数据放 OBS，计算用集群）</strong></li>
+<li>适合：有大数据开发能力，需要 Spark&#x2F;Hive&#x2F;Flink 做自定义数据处理</li>
+</ul>
+<h3 id="DLI（数据湖探索）"><a href="#DLI（数据湖探索）" class="headerlink" title="DLI（数据湖探索）"></a>DLI（数据湖探索）</h3><p>不想建集群、不想管服务器？DLI 是<strong>无服务器（Serverless）</strong>的：你把数据放好，<strong>直接写 SQL</strong> 就能查，用多少算多少的钱。</p>
+<ul>
+<li>核心特点：<strong>Serverless</strong>（无需预置 &#x2F; 管理集群）、支持 <strong>SQL</strong> 分析（兼容 Spark SQL、Flink SQL）</li>
+<li>支持<strong>批处理 + 流处理</strong>：既可跑离线 SQL，也可做实时流分析</li>
+<li>计费：<strong>按扫描的数据量计费</strong>（用了才付钱）</li>
+<li>适合：中小团队、不想运维集群、快速 SQL 分析</li>
+</ul>
+<p><strong>考点</strong>：DLI 关键词 &#x3D; Serverless + SQL + 按量计费；不用自己建集群。</p>
+<h3 id="DWS（数据仓库服务）"><a href="#DWS（数据仓库服务）" class="headerlink" title="DWS（数据仓库服务）"></a>DWS（数据仓库服务）</h3><p>普通数据库（RDS）管 “日常交易”（下单、转账），DWS 管 “大规模分析”（这个季度卖了多少、哪个地区增长最快）。它是专门为<strong>报表、BI 分析</strong>设计的。</p>
+<ul>
+<li>定位：<strong>在线分析处理（OLAP）</strong>，面向复杂查询、报表、商业智能（BI）</li>
+<li>内核：基于 <strong>PostgreSQL</strong>（即 GaussDB (DWS)）</li>
+<li>特点：行列混合存储、列存加速分析、高并发、可扩展</li>
+<li>对比：<strong>RDS &#x3D; OLTP</strong>（事务处理，增删改查）；<strong>DWS &#x3D; OLAP</strong>（分析处理，复杂查询聚合）</li>
+</ul>
+<p><strong>考点（高频）</strong>：</p>
+<ul>
+<li>DWS 属于 <strong>OLAP</strong>，RDS 属于 <strong>OLTP</strong></li>
+<li>问 “报表 &#x2F; BI &#x2F; 大数据分析” → DWS</li>
+<li>DWS 基于 PostgreSQL 内核</li>
+</ul>
+<h3 id="三选一速查"><a href="#三选一速查" class="headerlink" title="三选一速查"></a>三选一速查</h3><table>
+<thead>
+<tr>
+<th>场景</th>
+<th>选谁</th>
+<th>一句话理由</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>用 Spark&#x2F;Hive&#x2F;Flink 写大数据处理代码</td>
+<td><strong>MRS</strong></td>
+<td>托管 Hadoop 生态集群</td>
+</tr>
+<tr>
+<td>不建集群、写 SQL 按量分析</td>
+<td><strong>DLI</strong></td>
+<td>Serverless 数据湖</td>
+</tr>
+<tr>
+<td>企业报表、BI、大规模分析查询</td>
+<td><strong>DWS</strong></td>
+<td>OLAP 数据仓库</td>
+</tr>
+<tr>
+<td>日常业务事务（订单、用户表）</td>
+<td><strong>RDS</strong></td>
+<td>OLTP 关系型数据库</td>
+</tr>
+<tr>
+<td>大数据原始数据存储底座</td>
+<td><strong>OBS</strong></td>
+<td>存算分离底座</td>
+</tr>
+</tbody></table>
+<h2 id="上云迁移与运维治理"><a href="#上云迁移与运维治理" class="headerlink" title="上云迁移与运维治理"></a>上云迁移与运维治理</h2><h3 id="上云迁移"><a href="#上云迁移" class="headerlink" title="上云迁移"></a>上云迁移</h3><p>弹性扩缩容、降低成本、免运维、更强算力。</p>
+<table>
+<thead>
+<tr>
+<th>工具</th>
+<th>全称</th>
+<th>搬什么</th>
+<th>大白话</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>SMS</strong></td>
+<td>主机迁移服务 Server Migration Service</td>
+<td>本地<strong>服务器 &#x2F; 虚拟机</strong> → ECS</td>
+<td>把整台电脑 “复制” 到云上</td>
+</tr>
+<tr>
+<td><strong>OMS</strong></td>
+<td>对象存储迁移服务 Object Storage Migration Service</td>
+<td>对象存储<strong>数据</strong> → OBS</td>
+<td>把网盘数据拷到云网盘</td>
+</tr>
+<tr>
+<td><strong>DRS</strong></td>
+<td>数据复制服务 Data Replication Service</td>
+<td><strong>数据库</strong>迁移 &#x2F; 同步</td>
+<td>把数据库搬走，可<strong>不停机</strong></td>
+</tr>
+</tbody></table>
+<p><strong>迁移流程（了解）</strong>：评估 → 规划 → 迁移 → 验证 → 切换 → 运维。</p>
+<h3 id="Landing-Zone-着陆区"><a href="#Landing-Zone-着陆区" class="headerlink" title="Landing Zone 着陆区"></a>Landing Zone 着陆区</h3><ul>
+<li><p>Landing Zone（着陆区）：企业上云前的</p>
+<p>基础环境规划与最佳实践，统一设计：</p>
+<ul>
+<li><strong>账号体系</strong>：多账号 &#x2F; 多组织架构（企业组织 Organization）</li>
+<li><strong>网络规划</strong>：VPC、子网、互联互通方案</li>
+<li><strong>安全基线</strong>：IAM 权限、密钥管理 KMS、合规要求</li>
+<li><strong>日志与审计</strong>：统一日志留存、操作审计</li>
+</ul>
+</li>
+<li><p>目的：让业务迁移<strong>安全、合规、可扩展</strong>，避免 “上了云再返工”</p>
+</li>
+</ul>
+<p><strong>考点</strong>：”Landing Zone 是上云后的业务代码框架” → 错，它是上云前的基础环境规划。</p>
+<h3 id="Runbook-运行手册"><a href="#Runbook-运行手册" class="headerlink" title="Runbook 运行手册"></a>Runbook 运行手册</h3><p><strong>专业版（答题用）</strong></p>
+<ul>
+<li><strong>Runbook（运行手册）</strong>：将<strong>例行操作、故障处理、变更流程</strong>固化为标准步骤文档</li>
+<li>作用：减少人为失误、提升效率、新人可快速上手、故障时快速响应</li>
+<li>示例：数据库备份检查 Runbook、ECS 宕机处理 Runbook</li>
+</ul>
+<p><strong>考点</strong>：”Runbook 用于标准化运维操作和故障处理” → 正确。</p>
+<h3 id="运维治理"><a href="#运维治理" class="headerlink" title="运维治理"></a>运维治理</h3><table>
+<thead>
+<tr>
+<th>服务</th>
+<th>管什么</th>
+<th>大白话</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>CES 云监控</strong></td>
+<td>CPU &#x2F; 内存 &#x2F; 磁盘 &#x2F; 网络指标 + 告警</td>
+<td>体检仪 + 报警器</td>
+</tr>
+<tr>
+<td><strong>LTS 云日志服务</strong></td>
+<td>日志采集、检索、分析</td>
+<td>全程录像回放</td>
+</tr>
+<tr>
+<td><strong>IAM 身份与访问管理</strong></td>
+<td>用户 &#x2F; 权限 &#x2F; 角色，<strong>最小权限原则</strong></td>
+<td>门禁卡，按需授权</td>
+</tr>
+<tr>
+<td><strong>CodeArts（DevOps）</strong></td>
+<td>代码托管、构建、部署、流水线 CI&#x2F;CD</td>
+<td>自动化流水线工厂</td>
+</tr>
+</tbody></table>
+<p><strong>补充两个安全运维词（认识即可）</strong></p>
+<ul>
+<li><strong>KMS 密钥管理服务</strong>：密钥加密托管</li>
+<li><strong>COC 云运维中心</strong>：工单、变更、故障一站式管理</li>
+</ul>
+<p><strong>考点</strong>：问 “监控告警”→CES；”日志分析”→LTS；”权限管控”→IAM；”CI&#x2F;CD 流水线”→CodeArts。</p>
+<h2 id="安全服务"><a href="#安全服务" class="headerlink" title="安全服务"></a>安全服务</h2><h3 id="WAF-Web-应用防火墙"><a href="#WAF-Web-应用防火墙" class="headerlink" title="WAF Web 应用防火墙"></a>WAF Web 应用防火墙</h3><ul>
+<li><strong>WAF（Web Application Firewall）</strong>：部署在 Web 应用<strong>前面</strong>（反代模式），检测并拦截恶意请求</li>
+<li>防护能力（考点列举）：<ul>
+<li><strong>SQL 注入</strong>：在输入框 &#x2F; URL 塞 SQL 语句窃取数据库</li>
+<li><strong>XSS 跨站脚本</strong>：往页面注入脚本盗取用户信息</li>
+<li>恶意爬虫、CC 攻击、网页篡改、暴力破解</li>
+</ul>
+</li>
+<li>部署位置：可与 <strong>CDN、ELB</strong> 组合，云 WAF &#x2F; 独享 WAF</li>
+<li><strong>对应层级：应用层（OSI 第 7 层）</strong></li>
+</ul>
+<p><strong>考点</strong>：问 “防 SQL 注入 &#x2F; XSS 用什么” → WAF；WAF 是<strong>应用层</strong>防护。</p>
+<h3 id="DDoS-高防"><a href="#DDoS-高防" class="headerlink" title="DDoS 高防"></a>DDoS 高防</h3><ul>
+<li><strong>DDoS（Distributed Denial of Service）</strong>：分布式拒绝服务，利用大量傀儡机<strong>并发攻击耗尽目标资源</strong>，导致正常用户无法访问</li>
+<li>华为云 <strong>Anti-DDoS</strong>：默认<strong>基础防护免费</strong>（自动流量清洗）</li>
+<li><strong>DDoS 高防（高防 IP）</strong>：付费扩容，可抗超大流量（几十 Gbps 级），通过<strong>流量清洗 &#x2F; 黑洞</strong>机制</li>
+<li>防护能力：<strong>流量型攻击</strong>（SYN Flood、UDP Flood、CC 等）</li>
+</ul>
+<p><strong>考点</strong>：</p>
+<ul>
+<li>DDoS &#x3D; <strong>流量型攻击</strong>（把服务打瘫）</li>
+<li>WAF &#x3D; <strong>应用型攻击</strong>（SQL 注入 &#x2F; XSS）—— 两者别混</li>
+<li>Anti-DDoS 基础防护免费，高防付费</li>
+</ul>
+<h3 id="堡垒机-CBH"><a href="#堡垒机-CBH" class="headerlink" title="堡垒机 CBH"></a>堡垒机 CBH</h3><ul>
+<li><strong>堡垒机（Cloud Bastion Host，CBH）</strong>：<strong>运维安全审计</strong>服务</li>
+<li>核心能力：<ul>
+<li><strong>统一入口</strong>：所有运维操作从堡垒机进入</li>
+<li><strong>身份认证</strong>：支持双因子认证</li>
+<li><strong>权限控制</strong>：按最小权限授权，高危命令<strong>阻断</strong></li>
+<li><strong>操作审计</strong>：全程<strong>录屏 &#x2F; 日志</strong>留存，可追溯</li>
+</ul>
+</li>
+<li>价值：满足<strong>等保合规</strong>、防止越权与误操作、事后审计追溯</li>
+</ul>
+<p><strong>考点</strong>：问 “运维登录唯一入口 + 审计录像” → 堡垒机；”高危命令阻断” 也是堡垒机能力。</p>
+<h3 id="其他安全服务"><a href="#其他安全服务" class="headerlink" title="其他安全服务"></a>其他安全服务</h3><table>
+<thead>
+<tr>
+<th>服务</th>
+<th>防什么</th>
+<th>层级</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>HSS 主机安全</strong></td>
+<td>勒索病毒、漏洞、入侵</td>
+<td>主机层</td>
+</tr>
+<tr>
+<td><strong>KMS 密钥管理</strong></td>
+<td>数据加密</td>
+<td>数据层</td>
+</tr>
+<tr>
+<td><strong>DBSS 数据库安全审计</strong></td>
+<td>数据库行为审计</td>
+<td>数据层</td>
+</tr>
+<tr>
+<td><strong>CFW 云防火墙</strong></td>
+<td>南北 &#x2F; 东西向统一防护</td>
+<td>网络层</td>
+</tr>
+<tr>
+<td><strong>IAM</strong></td>
+<td>身份权限（最小权限）</td>
+<td>身份层</td>
+</tr>
+</tbody></table>
+<h2 id="模型史与架构"><a href="#模型史与架构" class="headerlink" title="模型史与架构"></a>模型史与架构</h2><table>
+<thead>
+<tr>
+<th>模型</th>
+<th>年份 &#x2F; 团队</th>
+<th>核心贡献</th>
+<th>必背考点</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>LeNet-5</strong></td>
+<td>1998 · Yann LeCun</td>
+<td>首个成功应用于<strong>数字识别</strong>的 CNN</td>
+<td>卷积神经网络鼻祖</td>
+</tr>
+<tr>
+<td><strong>AlexNet</strong></td>
+<td>2012・Geoffrey Hinton 团队</td>
+<td><strong>GPU 加速</strong>训练、ImageNet 分类准确率显著提高、<strong>数据增强</strong>、验证深度网络潜力</td>
+<td>深度学习 “引爆点”</td>
+</tr>
+<tr>
+<td><strong>Word2Vec</strong></td>
+<td>Google</td>
+<td>生成<strong>词向量</strong>；在百万级词典 &#x2F; 上亿数据上高效训练；低计算成本下显著提升精度；能度量<strong>词间相似性</strong></td>
+<td>不是 “训练成本极高”</td>
+</tr>
+<tr>
+<td><strong>ResNet</strong></td>
+<td>2015</td>
+<td><strong>残差连接</strong>，解决<strong>深度网络退化</strong>问题（网络越深反而不如浅层）</td>
+<td>注意：退化 ≠ 梯度消失（ResNet 也缓解梯度问题，但题目问 “主要解决” 选退化）</td>
+</tr>
+<tr>
+<td><strong>BERT</strong></td>
+<td>Google</td>
+<td><strong>双向 Transformer</strong>，刷新多项 NLP 记录</td>
+<td>双向</td>
+</tr>
+<tr>
+<td><strong>GPT-1</strong></td>
+<td>OpenAI</td>
+<td><strong>首次验证 “预训练 + 微调” 范式</strong></td>
+<td>第 9 套第 6 题答案 &#x3D; GPT-1</td>
+</tr>
+<tr>
+<td><strong>GPT-3</strong></td>
+<td>OpenAI</td>
+<td>应用：<strong>Copilot 代码生成、Jasper 文案创作</strong></td>
+<td>不含 “自动驾驶控制 &#x2F; 视频生成”</td>
+</tr>
+<tr>
+<td><strong>DeepSeek R1</strong></td>
+<td>2025</td>
+<td>推理模型：<strong>AIME2024、Codeforces、MATH500</strong> 胜过 OpenAI o1</td>
+<td>推理 + 开源 + 数学 &#x2F; 代码强</td>
+</tr>
+</tbody></table>
+<h3 id="Transformer"><a href="#Transformer" class="headerlink" title="Transformer"></a>Transformer</h3><ul>
+<li>《Attention Is All You Need》由 <strong>Google 团队</strong>提出，首次引入<strong>自注意力机制替代传统 RNN</strong></li>
+<li><strong>核心创新四件套</strong>：<strong>多头注意力机制、位置编码、前馈网络层、残差连接</strong></li>
+</ul>
+<p><strong>自注意力优势</strong>：<strong>支持并行计算 + 捕捉长程依赖</strong></p>
+<p>对后续影响：奠定 BERT 基础、GPT 系列相继采用、推动 Transformer-XL 发展</p>
+<h2 id="易混点大汇总"><a href="#易混点大汇总" class="headerlink" title="易混点大汇总"></a>易混点大汇总</h2><table>
+<thead>
+<tr>
+<th>对比组</th>
+<th>分辨口诀</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>ECS vs 容器 vs VM</td>
+<td>ECS &#x3D; 云上虚拟机（IaaS）；容器共享内核更轻量</td>
+</tr>
+<tr>
+<td>EVS &#x2F; SFS &#x2F; OBS</td>
+<td>硬盘 &#x2F; 共享文件夹 &#x2F; 网盘</td>
+</tr>
+<tr>
+<td>镜像 vs 快照</td>
+<td>镜像 &#x3D; 模板，快照 &#x3D; 时间点备份</td>
+</tr>
+<tr>
+<td>ELB 四层 vs 七层</td>
+<td>四层转包裹，七层拆包裹</td>
+</tr>
+<tr>
+<td>调度算法</td>
+<td>轮询 &#x3D; 轮流，最少连接 &#x3D; 谁闲给谁，IP Hash &#x3D; 固定找同一个人</td>
+</tr>
+<tr>
+<td>安全组 vs 网络 ACL</td>
+<td>有状态（回包自动放行）&#x2F; 无状态（各配各）</td>
+</tr>
+<tr>
+<td>专线 vs VPN</td>
+<td>专用公路（稳贵）&#x2F; 公网加密（便宜）</td>
+</tr>
+<tr>
+<td>RDS vs DWS</td>
+<td>OLTP 事务 &#x2F; OLAP 分析</td>
+</tr>
+<tr>
+<td>MRS &#x2F; DLI &#x2F; DWS</td>
+<td>Hadoop 集群 &#x2F; Serverless SQL &#x2F; 数仓</td>
+</tr>
+<tr>
+<td>SMS &#x2F; OMS &#x2F; DRS</td>
+<td>服务器 &#x2F; 对象数据 &#x2F; 数据库</td>
+</tr>
+<tr>
+<td>WAF vs DDoS</td>
+<td>拦聪明攻击（注入）&#x2F; 扛粗暴攻击（流量）</td>
+</tr>
+<tr>
+<td>昇腾 &#x2F; MindSpore &#x2F; ModelArts</td>
+<td>芯片 &#x2F; 框架 &#x2F; 平台</td>
+</tr>
+<tr>
+<td>Runbook &#x2F; Landing Zone</td>
+<td>操作手册 &#x2F; 上云前环境规划</td>
+</tr>
+</tbody></table>
+</article><div class="post-copyright"><div class="copyright-cc-box"><i class="anzhiyufont anzhiyu-icon-copyright"></i></div><div class="post-copyright__author_box"><a class="post-copyright__author_img" href="/" title="头像"><img class="post-copyright__author_img_back" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://bu.dusays.com/2024/12/19/6763fb8953276.jpg" title="头像" alt="头像"><img class="post-copyright__author_img_front" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://bu.dusays.com/2024/12/19/6763fb8953276.jpg" title="头像" alt="头像"></a><div class="post-copyright__author_name">小楼夜听雨</div><div class="post-copyright__author_desc">天气晴朗 万物可爱</div></div><div class="post-copyright__post__info"><a class="post-copyright__original" title="该文章为原创文章，注意版权协议" href="http://yzf522.cn/2026/10/03/HCCDA-AI/">原创</a><a class="post-copyright-title"><span onclick="rm.copyPageUrl('http://yzf522.cn/2026/10/03/HCCDA-AI/')">ICT大赛</span></a></div><div class="post-tools" id="post-tools"><div class="post-tools-left"><div class="rewardLeftButton"></div><div class="shareRight"><div class="share-link mobile"><div class="share-qrcode"><div class="share-button" title="使用手机访问这篇文章"><i class="anzhiyufont anzhiyu-icon-qrcode"></i></div><div class="share-main"><div class="share-main-all"><div id="qrcode" title="http://yzf522.cn/2026/10/03/HCCDA-AI/"></div><div class="reward-dec">使用手机访问这篇文章</div></div></div></div></div><div class="share-link weibo"><a class="share-button" target="_blank" href="https://service.weibo.com/share/share.php?title=ICT大赛&amp;url=http://yzf522.cn/2026/10/03/HCCDA-AI/&amp;pic=https://bu.dusays.com/2024/12/29/677157cb97dfe.webp" rel="external nofollow noreferrer noopener"><i class="anzhiyufont anzhiyu-icon-weibo"></i></a></div><script>function copyCurrentPageUrl() {
+  var currentPageUrl = window.location.href;
+  var input = document.createElement("input");
+  input.setAttribute("value", currentPageUrl);
+  document.body.appendChild(input);
+  input.select();
+  input.setSelectionRange(0, 99999);
+  document.execCommand("copy");
+  document.body.removeChild(input);
+}</script><div class="share-link copyurl"><div class="share-button" id="post-share-url" title="复制链接" onclick="copyCurrentPageUrl()"><i class="anzhiyufont anzhiyu-icon-link"></i></div></div></div></div></div><div class="post-copyright__notice"><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://yzf522.cn" target="_blank">小楼夜听雨</a>！</span></div></div><div class="post-tools-right"><div class="tag_share"><div class="post-meta__box"><div class="post-meta__box__tag-list"></div></div></div><div class="post_share"><div class="social-share" data-image="https://bu.dusays.com/2024/12/19/6763fb8953276.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.cbd.int/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"/><script src="https://cdn.cbd.int/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer="defer"></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/2026/10/02/Kubernetes/"><img class="prev-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://bu.dusays.com/2026/10/02/6abf97d504a84.webp" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">Kubernetes</div></div></a></div><div class="next-post pull-right"><a href="/2026/10/09/Hadoop/"><img class="next-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Hadoop</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-content"><div class="author-info__sayhi" id="author-info__sayhi" onclick="anzhiyu.changeSayHelloText()"></div><div class="author-info-avatar"><img class="avatar-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://bu.dusays.com/2024/12/19/6763fb8953276.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-status"><img class="g-status" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://bu.dusays.com/2023/08/24/64e6ce9c507bb.png" alt="status"/></div></div><div class="author-info__description"></div><div class="author-info__bottom-group"><a class="author-info__bottom-group-left" href="/"><h1 class="author-info__name">小楼夜听雨</h1><div class="author-info__desc">天气晴朗 万物可爱</div></a><div class="card-info-social-icons is-center"><a class="social-icon faa-parent animated-hover" href="https://qm.qq.com/q/pK3YnDshmU" target="_blank" title="QQ"><svg class="icon faa-tada" aria-hidden="true"><use xlink:href="#icon-qq"></use></svg></a></div></div></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-bars"></i><span>文章目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%91%E8%AE%A1%E7%AE%97%E5%9F%BA%E7%A1%80%E6%A6%82%E5%BF%B5"><span class="toc-number">1.</span> <span class="toc-text">云计算基础概念</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%91%E8%AE%A1%E7%AE%97%E6%98%AF%E4%BB%80%E4%B9%88"><span class="toc-number">1.1.</span> <span class="toc-text">云计算是什么</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A4%A7%E7%89%B9%E5%BE%81"><span class="toc-number">1.2.</span> <span class="toc-text">大特征</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%89%E7%A7%8D%E6%9C%8D%E5%8A%A1%E6%A8%A1%E5%9E%8B"><span class="toc-number">1.3.</span> <span class="toc-text">三种服务模型</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%83%A8%E7%BD%B2%E6%A8%A1%E5%9E%8B"><span class="toc-number">1.4.</span> <span class="toc-text">部署模型</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%99%9A%E6%8B%9F%E5%8C%96"><span class="toc-number">1.5.</span> <span class="toc-text">虚拟化</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8D%8E%E4%B8%BA%E4%BA%91%E6%9E%B6%E6%9E%84%E5%B1%82%E7%BA%A7"><span class="toc-number">1.6.</span> <span class="toc-text">华为云架构层级</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%AE%A1%E8%B4%B9%E6%A8%A1%E5%BC%8F"><span class="toc-number">1.7.</span> <span class="toc-text">计费模式</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%AE%A1%E7%AE%97%E6%9C%8D%E5%8A%A1%E4%B8%89%E4%BB%B6%E5%A5%97"><span class="toc-number">2.</span> <span class="toc-text">计算服务三件套</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-ELB"><span class="toc-number">2.1.</span> <span class="toc-text">1.ELB</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-ECS"><span class="toc-number">2.2.</span> <span class="toc-text">2.ECS</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-AS"><span class="toc-number">2.3.</span> <span class="toc-text">3.AS</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%89%E4%BB%B6%E5%A5%97%E6%80%8E%E4%B9%88%E9%85%8D%E5%90%88"><span class="toc-number">2.4.</span> <span class="toc-text">三件套怎么配合</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AD%98%E5%82%A8%E6%9C%8D%E5%8A%A1%E4%B8%89%E4%BB%B6%E5%A5%97"><span class="toc-number">3.</span> <span class="toc-text">存储服务三件套</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#EVS-%E4%BA%91%E7%A1%AC%E7%9B%98"><span class="toc-number">3.1.</span> <span class="toc-text">EVS 云硬盘</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#SFS-%E6%96%87%E4%BB%B6%E5%AD%98%E5%82%A8"><span class="toc-number">3.2.</span> <span class="toc-text">SFS 文件存储</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#OBS-%E5%AF%B9%E8%B1%A1%E5%AD%98%E5%82%A8"><span class="toc-number">3.3.</span> <span class="toc-text">OBS 对象存储</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%80%BB%E7%BB%93"><span class="toc-number">3.4.</span> <span class="toc-text">总结</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BD%91%E7%BB%9C%E6%9C%8D%E5%8A%A1"><span class="toc-number">4.</span> <span class="toc-text">网络服务</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#VPC-%E8%99%9A%E6%8B%9F%E7%A7%81%E6%9C%89%E4%BA%91"><span class="toc-number">4.1.</span> <span class="toc-text">VPC 虚拟私有云</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%AE%89%E5%85%A8%E7%BB%84-%E7%BD%91%E7%BB%9C-ACL"><span class="toc-number">4.2.</span> <span class="toc-text">安全组 &amp; 网络 ACL</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%93%E7%BA%BF-DC"><span class="toc-number">4.3.</span> <span class="toc-text">专线 DC</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%80%BB%E7%BB%93-1"><span class="toc-number">4.4.</span> <span class="toc-text">总结</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%B9%E5%99%A8%E4%B8%8E%E4%BA%91%E5%8E%9F%E7%94%9F"><span class="toc-number">5.</span> <span class="toc-text">容器与云原生</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Docker"><span class="toc-number">5.1.</span> <span class="toc-text">Docker</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Kubernetes%EF%BC%88K8s%EF%BC%89"><span class="toc-number">5.2.</span> <span class="toc-text">Kubernetes（K8s）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#CCE-%E5%8D%8E%E4%B8%BA%E4%BA%91%E5%AE%B9%E5%99%A8%E5%BC%95%E6%93%8E"><span class="toc-number">5.3.</span> <span class="toc-text">CCE 华为云容器引擎</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%91%E5%8E%9F%E7%94%9F"><span class="toc-number">5.4.</span> <span class="toc-text">云原生</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%80%BB%E7%BB%93-2"><span class="toc-number">5.5.</span> <span class="toc-text">总结</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E5%BA%93%E6%9C%8D%E5%8A%A1"><span class="toc-number">6.</span> <span class="toc-text">数据库服务</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#RDS-%E5%85%B3%E7%B3%BB%E5%9E%8B%E6%95%B0%E6%8D%AE%E5%BA%93%E6%9C%8D%E5%8A%A1"><span class="toc-number">6.1.</span> <span class="toc-text">RDS 关系型数据库服务</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#GaussDB-%E9%AB%98%E6%96%AF%E6%95%B0%E6%8D%AE%E5%BA%93"><span class="toc-number">6.2.</span> <span class="toc-text">GaussDB 高斯数据库</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#RDS-vs-%E8%87%AA%E5%B7%B1%E5%9C%A8-ECS-%E4%B8%8A%E8%A3%85%E6%95%B0%E6%8D%AE%E5%BA%93"><span class="toc-number">6.3.</span> <span class="toc-text">RDS vs 自己在 ECS 上装数据库</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#NoSQL"><span class="toc-number">6.4.</span> <span class="toc-text">NoSQL</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#DDM-%E5%88%86%E5%B8%83%E5%BC%8F%E6%95%B0%E6%8D%AE%E5%BA%93%E4%B8%AD%E9%97%B4%E4%BB%B6"><span class="toc-number">6.5.</span> <span class="toc-text">DDM 分布式数据库中间件</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#IMS-%E9%95%9C%E5%83%8F%E6%9C%8D%E5%8A%A1"><span class="toc-number">7.</span> <span class="toc-text">IMS 镜像服务</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#BMS-%E8%A3%B8%E9%87%91%E5%B1%9E%E6%9C%8D%E5%8A%A1%E5%99%A8"><span class="toc-number">8.</span> <span class="toc-text">BMS 裸金属服务器</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#CBR-%E4%BA%91%E5%A4%87%E4%BB%BD%E6%9C%8D%E5%8A%A1"><span class="toc-number">9.</span> <span class="toc-text">CBR 云备份服务</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#AI-%E4%B8%8E%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%9F%BA%E7%A1%80"><span class="toc-number">10.</span> <span class="toc-text">AI 与机器学习基础</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%89%E7%A7%8D%E5%AD%A6%E4%B9%A0%E6%96%B9%E5%BC%8F"><span class="toc-number">10.1.</span> <span class="toc-text">三种学习方式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%B3%E9%94%AE%E6%A6%82%E5%BF%B5"><span class="toc-number">10.2.</span> <span class="toc-text">关键概念</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%A0%B8%E5%BF%83"><span class="toc-number">10.3.</span> <span class="toc-text">深度学习核心</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8F%90%E7%A4%BA%E5%B7%A5%E7%A8%8B"><span class="toc-number">11.</span> <span class="toc-text">提示工程</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%89%E4%B8%AA%E9%87%87%E6%A0%B7%E5%8F%82%E6%95%B0%EF%BC%9A"><span class="toc-number">11.1.</span> <span class="toc-text">三个采样参数：</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Tokenizer"><span class="toc-number">11.2.</span> <span class="toc-text">Tokenizer</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8F%90%E7%A4%BA%E6%8A%80%E5%B7%A7%E4%B8%89%E4%BB%B6%E5%A5%97"><span class="toc-number">11.3.</span> <span class="toc-text">提示技巧三件套</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%9B%98%E5%8F%A4%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91%E5%A5%97%E4%BB%B6"><span class="toc-number">11.4.</span> <span class="toc-text">盘古应用开发套件</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%A2%84%E8%AE%AD%E7%BB%83%E3%80%81%E5%BE%AE%E8%B0%83%E4%B8%8E%E6%95%B0%E6%8D%AE%E5%B7%A5%E7%A8%8B"><span class="toc-number">12.</span> <span class="toc-text">预训练、微调与数据工程</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BE%AE%E8%B0%83%E7%9A%84%E4%B8%89%E7%A7%8D%E6%89%93%E5%BC%80%E6%96%B9%E5%BC%8F"><span class="toc-number">12.1.</span> <span class="toc-text">微调的三种打开方式</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%95%B0%E6%8D%AE%E5%B7%A5%E7%A8%8B%E5%9B%9B%E8%BF%9E"><span class="toc-number">12.1.1.</span> <span class="toc-text">数据工程四连</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#ModelArts-%E4%B8%8E%E5%8D%8E%E4%B8%BA%E4%BA%91-AI"><span class="toc-number">13.</span> <span class="toc-text">ModelArts 与华为云 AI</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#ModelArts"><span class="toc-number">14.</span> <span class="toc-text">ModelArts</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8D%8E%E4%B8%BA-AI-%E8%87%AA%E7%A0%94%E4%B8%89%E4%BB%B6%E5%A5%97"><span class="toc-number">14.1.</span> <span class="toc-text">华为 AI 自研三件套</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8D%8E%E4%B8%BA%E4%BA%91%E9%A2%84%E7%BD%AE-AI-%E6%9C%8D%E5%8A%A1"><span class="toc-number">14.2.</span> <span class="toc-text">华为云预置 AI 服务</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%A4%A7%E6%95%B0%E6%8D%AE%E6%9C%8D%E5%8A%A1"><span class="toc-number">15.</span> <span class="toc-text">大数据服务</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#MRS"><span class="toc-number">15.1.</span> <span class="toc-text">MRS</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#DLI%EF%BC%88%E6%95%B0%E6%8D%AE%E6%B9%96%E6%8E%A2%E7%B4%A2%EF%BC%89"><span class="toc-number">15.2.</span> <span class="toc-text">DLI（数据湖探索）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#DWS%EF%BC%88%E6%95%B0%E6%8D%AE%E4%BB%93%E5%BA%93%E6%9C%8D%E5%8A%A1%EF%BC%89"><span class="toc-number">15.3.</span> <span class="toc-text">DWS（数据仓库服务）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%89%E9%80%89%E4%B8%80%E9%80%9F%E6%9F%A5"><span class="toc-number">15.4.</span> <span class="toc-text">三选一速查</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%8A%E4%BA%91%E8%BF%81%E7%A7%BB%E4%B8%8E%E8%BF%90%E7%BB%B4%E6%B2%BB%E7%90%86"><span class="toc-number">16.</span> <span class="toc-text">上云迁移与运维治理</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%B8%8A%E4%BA%91%E8%BF%81%E7%A7%BB"><span class="toc-number">16.1.</span> <span class="toc-text">上云迁移</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Landing-Zone-%E7%9D%80%E9%99%86%E5%8C%BA"><span class="toc-number">16.2.</span> <span class="toc-text">Landing Zone 着陆区</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Runbook-%E8%BF%90%E8%A1%8C%E6%89%8B%E5%86%8C"><span class="toc-number">16.3.</span> <span class="toc-text">Runbook 运行手册</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%BF%90%E7%BB%B4%E6%B2%BB%E7%90%86"><span class="toc-number">16.4.</span> <span class="toc-text">运维治理</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%AE%89%E5%85%A8%E6%9C%8D%E5%8A%A1"><span class="toc-number">17.</span> <span class="toc-text">安全服务</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#WAF-Web-%E5%BA%94%E7%94%A8%E9%98%B2%E7%81%AB%E5%A2%99"><span class="toc-number">17.1.</span> <span class="toc-text">WAF Web 应用防火墙</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#DDoS-%E9%AB%98%E9%98%B2"><span class="toc-number">17.2.</span> <span class="toc-text">DDoS 高防</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A0%A1%E5%9E%92%E6%9C%BA-CBH"><span class="toc-number">17.3.</span> <span class="toc-text">堡垒机 CBH</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%85%B6%E4%BB%96%E5%AE%89%E5%85%A8%E6%9C%8D%E5%8A%A1"><span class="toc-number">17.4.</span> <span class="toc-text">其他安全服务</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A8%A1%E5%9E%8B%E5%8F%B2%E4%B8%8E%E6%9E%B6%E6%9E%84"><span class="toc-number">18.</span> <span class="toc-text">模型史与架构</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Transformer"><span class="toc-number">18.1.</span> <span class="toc-text">Transformer</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%98%93%E6%B7%B7%E7%82%B9%E5%A4%A7%E6%B1%87%E6%80%BB"><span class="toc-number">19.</span> <span class="toc-text">易混点大汇总</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-history"></i><span>最近发布</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2026/10/09/Hadoop/" title="Hadoop">Hadoop</a><time datetime="2026-10-09T02:04:59.000Z" title="发表于 2026-10-09 10:04:59">2026-10-09</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2026/10/03/HCCDA-AI/" title="ICT大赛"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://bu.dusays.com/2024/12/29/677157cb97dfe.webp" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="ICT大赛"/></a><div class="content"><a class="title" href="/2026/10/03/HCCDA-AI/" title="ICT大赛">ICT大赛</a><time datetime="2026-10-03T06:50:48.000Z" title="发表于 2026-10-03 14:50:48">2026-10-03</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2026/10/02/Kubernetes/" title="Kubernetes"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://bu.dusays.com/2026/10/02/6abf97d504a84.webp" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Kubernetes"/></a><div class="content"><a class="title" href="/2026/10/02/Kubernetes/" title="Kubernetes">Kubernetes</a><time datetime="2026-10-02T09:27:22.000Z" title="发表于 2026-10-02 17:27:22">2026-10-02</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2026/09/19/Docker/" title="Docker"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://bu.dusays.com/2026/10/02/6abf79e0b1c54.webp" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Docker"/></a><div class="content"><a class="title" href="/2026/09/19/Docker/" title="Docker">Docker</a><time datetime="2026-09-19T05:27:05.000Z" title="发表于 2026-09-19 13:27:05">2026-09-19</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2026/09/10/Linux%E5%A4%A7%E6%95%B0%E6%8D%AE%E7%AF%87/" title="Linux大数据篇"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://bu.dusays.com/2026/10/02/6abfa89bb75c0.webp" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Linux大数据篇"/></a><div class="content"><a class="title" href="/2026/09/10/Linux%E5%A4%A7%E6%95%B0%E6%8D%AE%E7%AF%87/" title="Linux大数据篇">Linux大数据篇</a><time datetime="2026-09-10T11:07:54.000Z" title="发表于 2026-09-10 19:07:54">2026-09-10</time></div></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"></div><div id="footer-bar"><div class="footer-bar-links"><div class="footer-bar-left"><div id="footer-bar-tips"><div class="copyright">&copy;2024 - 2026 By <a class="footer-bar-link" href="/" title="小楼夜听雨" target="_blank">小楼夜听雨</a></div></div><div id="footer-type-tips"></div></div><div class="footer-bar-right"><a class="footer-bar-link" target="_blank" rel="noopener" href="https://github.com/anzhiyu-c/hexo-theme-anzhiyu" title="主题">主题</a></div></div></div></footer></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="sidebar-site-data site-data is-center"><a href="/archives/" title="archive"><div class="headline">文章</div><div class="length-num">34</div></a><a href="/tags/" title="tag"><div class="headline">标签</div><div class="length-num">15</div></a><a href="/categories/" title="category"><div class="headline">分类</div><div class="length-num">3</div></a></div><span class="sidebar-menu-item-title">功能</span><div class="sidebar-menu-item"><a class="darkmode_switchbutton menu-child" href="javascript:void(0);" title="显示模式"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i><span>显示模式</span></a></div><div class="back-menu-list-groups"><div class="back-menu-list-group"><div class="back-menu-list-title">网页</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="http://localhost:4000/404.html" title="博客"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/favicon.ico" alt="博客"/><span class="back-menu-item-text">博客</span></a></div></div><div class="back-menu-list-group"><div class="back-menu-list-title">项目</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="http://localhost:4000/404.html" title="还没想好"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://image.anheyu.com/favicon.ico" alt="还没想好"/><span class="back-menu-item-text">还没想好</span></a></div></div></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 文章</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/archives/"><i class="anzhiyufont anzhiyu-icon-box-archive faa-tada" style="font-size: 0.9em;"></i><span> 隧道</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/"><i class="anzhiyufont anzhiyu-icon-shapes faa-tada" style="font-size: 0.9em;"></i><span> 分类</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags faa-tada" style="font-size: 0.9em;"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 友链</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/comments/"><i class="anzhiyufont anzhiyu-icon-envelope faa-tada" style="font-size: 0.9em;"></i><span> 留言板</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 我的</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/music/?id=13091820019&amp;server=netease"><i class="anzhiyufont anzhiyu-icon-music faa-tada" style="font-size: 0.9em;"></i><span> 音乐馆</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/album/"><i class="anzhiyufont anzhiyu-icon-images faa-tada" style="font-size: 0.9em;"></i><span> 相册集</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 关于</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/about/"><i class="anzhiyufont anzhiyu-icon-paper-plane faa-tada" style="font-size: 0.9em;"></i><span> 关于本人</span></a></li><li><a class="site-page child faa-parent animated-hover" href="javascript:toRandomPost()"><i class="anzhiyufont anzhiyu-icon-shoe-prints1 faa-tada" style="font-size: 0.9em;"></i><span> 随便逛逛</span></a></li></ul></div></div><span class="sidebar-menu-item-title">标签</span><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/C/" style="font-size: 0.88rem;">C#<sup>3</sup></a><a href="/tags/C/" style="font-size: 0.88rem;">C++<sup>5</sup></a><a href="/tags/Linux/" style="font-size: 0.88rem;">Linux<sup>2</sup></a><a href="/tags/Python/" style="font-size: 0.88rem;">Python<sup>4</sup></a><a href="/tags/Unity/" style="font-size: 0.88rem;">Unity<sup>1</sup></a><a href="/tags/git/" style="font-size: 0.88rem;">git<sup>1</sup></a><a href="/tags/%E5%89%8D%E7%AB%AF/" style="font-size: 0.88rem;">前端<sup>2</sup></a><a href="/tags/%E5%8D%95%E7%89%87%E6%9C%BA/" style="font-size: 0.88rem;">单片机<sup>1</sup></a><a href="/tags/%E5%A4%A7%E6%95%B0%E6%8D%AE/" style="font-size: 0.88rem;">大数据<sup>4</sup></a><a href="/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/" style="font-size: 0.88rem;">小程序<sup>2</sup></a><a href="/tags/%E6%8A%93%E5%8C%85/" style="font-size: 0.88rem;">抓包<sup>1</sup></a><a href="/tags/%E6%B8%B8%E6%88%8F/" style="font-size: 0.88rem;">游戏<sup>1</sup></a><a href="/tags/%E7%BB%93%E6%9E%84%E7%AE%97%E6%B3%95/" style="font-size: 0.88rem;">结构算法<sup>1</sup></a><a href="/tags/%E7%BD%91%E7%AB%99/" style="font-size: 0.88rem;">网站<sup>1</sup></a><a href="/tags/%E7%BD%91%E7%BB%9C/" style="font-size: 0.88rem;">网络<sup>1</sup></a></div></div><hr/></div></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="anzhiyufont anzhiyu-icon-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="anzhiyufont anzhiyu-icon-gear"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="anzhiyufont anzhiyu-icon-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div><div id="nav-music"><a id="nav-music-hoverTips" onclick="anzhiyu.musicToggle()" accesskey="m">播放音乐</a><div id="console-music-bg"></div><meting-js id="13091820019" server="netease" type="playlist" mutex="true" preload="none" theme="var(--anzhiyu-main)" data-lrctype="0" order="random" volume="0.7"></meting-js></div><div id="rightMenu"><div class="rightMenu-group rightMenu-small"><div class="rightMenu-item" id="menu-backward"><i class="anzhiyufont anzhiyu-icon-arrow-left"></i></div><div class="rightMenu-item" id="menu-forward"><i class="anzhiyufont anzhiyu-icon-arrow-right"></i></div><div class="rightMenu-item" id="menu-refresh"><i class="anzhiyufont anzhiyu-icon-arrow-rotate-right" style="font-size: 1rem;"></i></div><div class="rightMenu-item" id="menu-top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></div></div><div class="rightMenu-group rightMenu-line rightMenuPlugin"><div class="rightMenu-item" id="menu-copytext"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制选中文本</span></div><div class="rightMenu-item" id="menu-pastetext"><i class="anzhiyufont anzhiyu-icon-paste"></i><span>粘贴文本</span></div><a class="rightMenu-item" id="menu-commenttext"><i class="anzhiyufont anzhiyu-icon-comment-medical"></i><span>引用到评论</span></a><div class="rightMenu-item" id="menu-newwindow"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开</span></div><div class="rightMenu-item" id="menu-copylink"><i class="anzhiyufont anzhiyu-icon-link"></i><span>复制链接地址</span></div><div class="rightMenu-item" id="menu-copyimg"><i class="anzhiyufont anzhiyu-icon-images"></i><span>复制此图片</span></div><div class="rightMenu-item" id="menu-downloadimg"><i class="anzhiyufont anzhiyu-icon-download"></i><span>下载此图片</span></div><div class="rightMenu-item" id="menu-newwindowimg"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开图片</span></div><div class="rightMenu-item" id="menu-search"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>站内搜索</span></div><div class="rightMenu-item" id="menu-searchBaidu"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>百度搜索</span></div><div class="rightMenu-item" id="menu-music-toggle"><i class="anzhiyufont anzhiyu-icon-play"></i><span>播放音乐</span></div><div class="rightMenu-item" id="menu-music-back"><i class="anzhiyufont anzhiyu-icon-backward"></i><span>切换到上一首</span></div><div class="rightMenu-item" id="menu-music-forward"><i class="anzhiyufont anzhiyu-icon-forward"></i><span>切换到下一首</span></div><div class="rightMenu-item" id="menu-music-playlist" onclick="window.open(&quot;https://music.163.com/#/my/m/music/playlist?id=13091820019&quot;, &quot;_blank&quot;);" style="display: none;"><i class="anzhiyufont anzhiyu-icon-radio"></i><span>查看所有歌曲</span></div><div class="rightMenu-item" id="menu-music-copyMusicName"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制歌名</span></div></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item menu-link" id="menu-randomPost"><i class="anzhiyufont anzhiyu-icon-shuffle"></i><span>随便逛逛</span></a><a class="rightMenu-item menu-link" href="/categories/"><i class="anzhiyufont anzhiyu-icon-cube"></i><span>博客分类</span></a><a class="rightMenu-item menu-link" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags"></i><span>文章标签</span></a></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item" id="menu-copy" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制地址</span></a><a class="rightMenu-item" id="menu-commentBarrage" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-message"></i><span class="menu-commentBarrage-text">关闭热评</span></a><a class="rightMenu-item" id="menu-darkmode" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i><span class="menu-darkmode-text">深色模式</span></a><a class="rightMenu-item" id="menu-translate" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-language"></i><span>轉為繁體</span></a></div></div><div id="rightmenu-mask"></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.cbd.int/@fancyapps/ui@5.0.28/dist/fancybox/fancybox.umd.js"></script><script src="https://cdn.cbd.int/instant.page@5.2.0/instantpage.js" type="module"></script><script src="https://cdn.cbd.int/vanilla-lazyload@17.8.5/dist/lazyload.iife.min.js"></script><script src="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.js"></script><canvas id="universe"></canvas><script async src="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/dark/dark.js"></script><script>// 消除控制台打印
+var HoldLog = console.log;
+console.log = function () {};
+let now1 = new Date();
+queueMicrotask(() => {
+  const Log = function () {
+    HoldLog.apply(console, arguments);
+  }; //在恢复前输出日志
+  const grt = new Date("04/05/2024 00:00:00"); //此处修改你的建站时间或者网站上线时间
+  now1.setTime(now1.getTime() + 250);
+  const days = (now1 - grt) / 1000 / 60 / 60 / 24;
+  const dnum = Math.floor(days);
+  const ascll = [
+    `欢迎使用安知鱼!`,
+    `生活明朗, 万物可爱`,
+    `
+        
+       █████╗ ███╗   ██╗███████╗██╗  ██╗██╗██╗   ██╗██╗   ██╗
+      ██╔══██╗████╗  ██║╚══███╔╝██║  ██║██║╚██╗ ██╔╝██║   ██║
+      ███████║██╔██╗ ██║  ███╔╝ ███████║██║ ╚████╔╝ ██║   ██║
+      ██╔══██║██║╚██╗██║ ███╔╝  ██╔══██║██║  ╚██╔╝  ██║   ██║
+      ██║  ██║██║ ╚████║███████╗██║  ██║██║   ██║   ╚██████╔╝
+      ╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝╚═╝   ╚═╝    ╚═════╝
+        
+        `,
+    "已上线",
+    dnum,
+    "天",
+    "©2024 By 安知鱼 V1.6.12",
+  ];
+  const ascll2 = [`NCC2-036`, `调用前置摄像头拍照成功，识别为【小笨蛋】.`, `Photo captured: `, `🤪`];
+
+  setTimeout(
+    Log.bind(
+      console,
+      `\n%c${ascll[0]} %c ${ascll[1]} %c ${ascll[2]} %c${ascll[3]}%c ${ascll[4]}%c ${ascll[5]}\n\n%c ${ascll[6]}\n`,
+      "color:#425AEF",
+      "",
+      "color:#425AEF",
+      "color:#425AEF",
+      "",
+      "color:#425AEF",
+      ""
+    )
+  );
+  setTimeout(
+    Log.bind(
+      console,
+      `%c ${ascll2[0]} %c ${ascll2[1]} %c \n${ascll2[2]} %c\n${ascll2[3]}\n`,
+      "color:white; background-color:#4fd953",
+      "",
+      "",
+      'background:url("https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/tinggge.gif") no-repeat;font-size:450%'
+    )
+  );
+
+  setTimeout(Log.bind(console, "%c WELCOME %c 你好，小笨蛋.", "color:white; background-color:#4f90d9", ""));
+
+  setTimeout(
+    console.warn.bind(
+      console,
+      "%c ⚡ Powered by 安知鱼 %c 你正在访问 小楼夜听雨 的博客.",
+      "color:white; background-color:#f0ad4e",
+      ""
+    )
+  );
+
+  setTimeout(Log.bind(console, "%c W23-12 %c 你已打开控制台.", "color:white; background-color:#4f90d9", ""));
+
+  setTimeout(
+    console.warn.bind(console, "%c S013-782 %c 你现在正处于监控中.", "color:white; background-color:#d9534f", "")
+  );
+});</script><script async src="/anzhiyu/random.js"></script><div class="js-pjax"><input type="hidden" name="page-type" id="page-type" value="post"></div><script>var visitorMail = "";
+</script><script async data-pjax src="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/waterfall/waterfall.js"></script><script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/qrcodejs/1.0.0/qrcode.min.js"></script><script src="/js/anzhiyu/right_click_menu.js"></script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.9/icon/ali_iconfont_css.css"><script async src="//at.alicdn.com/t/c/font_4535092_538o0cuhmw7.js"></script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/aplayer/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.cbd.int/anzhiyu-blog-static@1.0.1/js/APlayer.min.js"></script><script src="https://cdn.cbd.int/hexo-anzhiyu-music@1.0.1/assets/js/Meting2.min.js"></script><script src="https://cdn.cbd.int/pjax@0.2.8/pjax.min.js"></script><script>let pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+  // removeEventListener scroll 
+  anzhiyu.removeGlobalFnEvent('pjax')
+  anzhiyu.removeGlobalFnEvent('themeChange')
+
+  document.getElementById('rightside').classList.remove('rightside-show')
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+})
+
+document.addEventListener('pjax:error', e => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script charset="UTF-8" src="https://cdn.cbd.int/anzhiyu-theme-static@1.1.5/accesskey/accesskey.js"></script></div><div id="popup-window"><div class="popup-window-title">通知</div><div class="popup-window-divider"></div><div class="popup-window-content"><div class="popup-tip">你好呀</div><div class="popup-link"><i class="anzhiyufont anzhiyu-icon-arrow-circle-right"></i></div></div></div></body></html>
